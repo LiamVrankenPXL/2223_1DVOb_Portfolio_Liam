@@ -7,15 +7,18 @@
     <!--    FAVICON-->
     <link rel="icon" type="image/x-icon" href="assets/logo.png">
 
-    <!-- CSS-->
-    <link rel="stylesheet" href="style.css">
-
     <!-- BOOTSTRAP CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+            crossorigin="anonymous"></script>
 
     <!--ICONEN BOOTSTRAP-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+
+    <!-- CSS-->
+    <link rel="stylesheet" href="style.css">
 
     <!--Javascript-->
     <script src="script.js"></script>
@@ -23,7 +26,7 @@
     <!--    METADATA-->
     <meta charset="UTF-8">
     <meta name="author" content="Liam">
-    <meta name="description" content="Case_Ownit_Portfolio">
+    <meta name="description" content="About_me_Portfolio">
     <meta name="keywords" content="HTML,CSS,JAVASCRIPT">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -31,47 +34,255 @@
 <!--HEADER-->
 <!--NAVIGATIE-->
 <body>
-<nav class="navbar navbar-expand-lg fixed-top">
-    <div class="container-fluid">
+<header>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
 
-        <!--logo-->
-        <a class="navbar-brand" href="index.html"><img src="assets/logo.png" alt="Logo"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+            <!--logo-->
+            <a class="navbar-brand" href="index.html"><img src="assets/logo.png" alt="Logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <!--linken-->
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About me</a>
-                </li>
+            <!--linken-->
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about_me.html">About me</a>
+                    </li>
 
-                <!--dropdown menu-->
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                       aria-expanded="false">Cases</a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Ownit</a></li>
-                        <li><a class="dropdown-item" href="#">Emcy Square</a></li>
-                    </ul>
-                </li>
+                    <!--dropdown menu-->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                           data-bs-toggle="dropdown"
+                           aria-expanded="false">Cases</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="ownit.html">Ownit</a></li>
+                            <li><a class="dropdown-item" href="emcy_square.html">Emcy Square</a></li>
+                        </ul>
+                    </li>
 
-                <!--light mode toggle-->
-                <li class="nav-item">
-                    <button class="btn btn-light" id="toggleMode">Light mode</button>
-                </li>
-            </ul>
+                    <!--light mode toggle-->
+                    <li class="nav-item">
+                        <button class="btn btn-light" id="toggleMode">Light mode</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--    titel about me-->
+    <div class="titel">
+        <h1>Open-source<br>charging station</h1>
+        <p>Van product naar branding en website/app</p>
+    </div>
+</header>
+<!--EINDE HEADER-->
+<main>
+    <div class="container py-5" id="ownit__hoofd">
+
+        <!--INTRO OWNIT-->
+        <div class="row">
+            <div class="col-lg-6 py-5">
+                <p>In de nabije toekomst zal de markt voor laadpalen exponentieel groeien,
+                    aangezien vanaf 2030 alleen nog elektrische auto's in productie zullen zijn.
+                    PXL-ICT heeft deze ontwikkeling voorzien en heeft een nieuwe generatie laadpalen
+                    ontwikkeld om aan deze toenemende vraag te voldoen. Met geavanceerde technologie
+                    en een doordacht ontwerp bieden deze laadpalen efficiënte en betrouwbare
+                    oplaadmogelijkheden, naadloos aansluitend op de opkomende elektrische
+                    voertuigen van de toekomst. PXL-ICT zet zich in voor een duurzame en
+                    emissievrije mobiliteit, waarbij laadpalen een onmisbare rol spelen in het
+                    creëren van een groenere wereld.
+                </p>
+                <a href="#" class="btn btn-primary">Mijn taken
+                    <i class="bi bi-arrow-right"></i>
+                </a>
+            </div>
+            <div class="col-lg-6">
+                <img src="assets/ownit__1.png" alt="ownit__logo" class="img-fluid" id="ownit__logo">
+            </div>
+        </div>
+
+        <!--PXL VRAAG-->
+        <div class="row justify-content-center">
+            <div class="col-8 pxl__vraag">
+                <h1>"PXL: kunnen jullie ons een brand
+                    maken en een webshop bouwen?"</h1>
+                <p>
+                    Natuurlijk kunnen wij dit! Als team 13 van de opleiding
+                    digitale vormgeving hebben wij deze uitdaging aangenomen van PXL-ICT.
+                    Natuurlijk stelden we eerste de vraag waarom?<br><br>
+
+                    Na een grondig gesprek met Koen kwam al snel vast te liggen dat ze meer
+                    dan alleen een branding nodig hadden en een webshop.<br>
+                    - Een complete branding vanaf 0.<br>
+                    - Een launch pagina met webshop.<br>
+                    - Marketing te adverteren digitaal en fysiek.<br>
+                    - Een laadpaal & het design hiervan<br><br>
+
+                    In de toekomst zijn er diverse uitbreidingsmogelijkheden voor ons project.
+                    We overwegen de integratie van een 3D-configurator, waarmee gebruikers de
+                    laadpaal in realtime kunnen samenstellen volgens hun voorkeuren.
+                    We streven ernaar om de gebruikerservaring te verbeteren en ons product
+                    aan te passen aan individuele behoeften en wensen.
+                </p>
+            </div>
+        </div>
+
+        <!--CREATIE BRANDING-->
+        <div class="row">
+            <div class="col-lg-6 py-5 creatie__branding">
+                <h1>Creëeren van een branding.</h1>
+                <p>Om te kunnen uitblinken tussen de concurrentie,
+                    hebben we grondig onderzoek gedaan. We wilden begrijpen hoe we ons
+                    konden onderscheiden. Ons onderzoek begon met het afnemen van enquêtes
+                    en het houden van interviews. Tijdens deze gesprekken kwamen we tot de kern
+                    van het grootste probleem waarmee mensen te maken hebben:<br><br>
+
+                    - “Ik vind laadpalen te duur tegenwoordig”.<br>
+                    - “Wij hebben thuis helemaal geen plaats”.<br>
+                    - “De stroomrekening is tegenwoordig zeer hoog”.<br><br>
+
+                    Na het identificeren van deze problemen, hebben we grondig onderzoek
+                    gedaan naar de concurrentie. We hebben de bestaande marktanalyse
+                    uitgevoerd om te begrijpen wat er al beschikbaar is en hoe we de markt
+                    kunnen veroveren en verbeteren.
+                </p>
+            </div>
+            <div class="col-lg-6 creatie__img">
+                <img src="assets/ownit__2.png" alt="ownit__mockup" class="img-fluid" id="ownit__mock-up">
+            </div>
+        </div>
+
+        <!--FUTURE PROOF WEB-->
+        <div class="row justify-content-center">
+            <div class="col-8 pxl__web">
+                <h1>Future proof-web</h1>
+                <p>Nadat we onze branding voltooid en verfijnd hadden,
+                    hebben we ons gericht op het creëren van wireframes.
+                    Het team werd opgesplitst, waarbij drie teamleden zich
+                    bezighielden met het ontwerpen van de website en drie
+                    zich richtten op het ontwerpen van de app. Na uitgebreid
+                    overleg en het afwegen van de voor- en nadelen van elk ontwerp,
+                    hebben we gezamenlijk besloten om één wireframe te creëren
+                    dat het beste de essentie van ons project weerspiegelde.<br><br>
+
+                    Met het voltooien van de wireframes was het vervolgens
+                    tijd om over te gaan naar het visual design. Hierbij hebben
+                    we ons uiteraard laten leiden door onze eerdere branding.
+                    Door de consistente visuele elementen en stijl toe te passen,
+                    hebben we ervoor gezorgd dat het ontwerp naadloos aansloot
+                    bij de merkidentiteit en een professionele uitstraling had.<br><br>
+
+                    We moesten in tussentijd ook naar de toekomst kijken. Wat
+                    als er meer artikelen komen in de webshop of iemand wilt
+                    meer laadpalen omdat hij/zij meerdere huizen of auto's heeft.
+                    Hiervoor hebben wij ook oplossingen gemaakt en ingevoegd in ons project.
+                </p>
+            </div>
+        </div>
+
+        <!--IMAGES__WEBSITE HOME-->
+        <div class="row justify-content-center">
+            <div class="col-12 ownit__webimg">
+                <img src="assets/ownit__3.png" alt="foto_homescherm_website">
+            </div>
+        </div>
+
+        <!--RESULTAAT-->
+        <div class="row justify-content-center">
+            <div class="col-lg-6 ownit__resultaatimg">
+                <img src="assets/ownit__4.png" alt="groepsfoto" class="img-fluid">
+            </div>
+            <div class="col-lg-6 resultaat">
+                <h1>Resultaat?</h1>
+                <p>Het team van Ownit heeft succesvol een professioneel product afgeleverd,
+                    waarbij alles zeer goed is uitgevoerd en mooi afgewerkt. De groep heeft
+                    de lat hoog gelegd, wat heeft geleid tot een uitstekend resultaat.
+                    In totaal is er ongeveer 1300 uur gewerkt aan het project, verdeeld over
+                    vijf teamleden: Ana, Mack, Vasiliki, Kübra en ikzelf.
+                </p>
+            </div>
+        </div>
+
+        <!--MIJN TAKEN-->
+        <div class="row justify-content-center">
+            <div class="col-8 pxl__mijn__taken">
+                <h1>Mijn taken?</h1>
+                <p>Binnen dit project had ik verschillende taken en verantwoordelijkheden.
+                    Allereerst heb ik samen met mijn team gewerkt aan de branding van Ownit,
+                    waarbij ik mijn passie en expertise heb ingebracht. We hebben gezamenlijk
+                    de branding ontwikkeld en ik heb ook de brandguide gemaakt om een consistente
+                    uitstraling te waarborgen.<br><br>
+
+                    Daarnaast was ik verantwoordelijk voor het maken van de wireframes in mijn
+                    eigen stijl en het samenvoegen van drie wireframes tot het uiteindelijke
+                    ontwerp. Hierbij heb ik nauw samengewerkt met mijn teamleden en coaches om
+                    feedback te verwerken en tot een optimaal resultaat te komen. Vanwege mijn
+                    ervaring met visueel design, heb ik ook deze taak op me genomen, aangezien
+                    ik al bekend was met de brandguide en de branding van Ownit.<br><br>
+
+                    Op het gebied van coderen heb ik me voornamelijk gericht op het volledig
+                    coderen en responsief maken van de "Over ons" pagina met behulp van Bootstrap 5.
+                    Daarnaast heb ik mijn collega's ondersteund en feedback gegeven waar mogelijk.
+                    Bij het betalingsgedeelte van de website heb ik de JavaScript-code
+                    geschreven voor het uitvoeren van controles op onder andere het kaartnummer
+                    en de vervaldatum.<br><br>
+
+                    Een van mijn grootste taken en uitdagingen was het zijn van de scrum master.
+                    Ik heb in twee sprints de scrum master geholpen met documentatie en het
+                    verdelen van taken. In de daaropvolgende sprints heb ik deze rol zelfstandig
+                    vervuld. Ik werd door mijn collega's gekozen vanwege mijn eerdere succes als
+                    scrum master. Ik heb de dagelijkse stand-ups geleid en ervoor gezorgd dat
+                    alles soepel verliep. Daarnaast heb ik ook de documentatie nauwkeurig
+                    bijgehouden om de orde en duidelijkheid te waarborgen.<br><br>
+                </p>
+            </div>
+        </div>
+
+        <!--WAT IS OWNIT?-->
+        <div class="row">
+            <div class="col-lg-6 py-5 creatie__branding">
+                <h1>Wat is Ownit nu?</h1>
+                <p>Ownit biedt een complete oplossing met een website waar je laadpalen,
+                    DIY-kits en onderdelen kunt kopen. Daarnaast is er een app beschikbaar
+                    waarmee je gedetailleerde informatie over de charger kunt bekijken,
+                    zoals laadtijd, stroomhoeveelheid en stroompieken. De app biedt ook
+                    automatiseringsopties op basis van stroompieken. Verder is er een actieve
+                    community waar gebruikers nieuwe functies kunnen ontwikkelen en vragen
+                    kunnen stellen. Ownit zorgt voor een naadloze ervaring met laadpalen.
+                </p>
+                <a href="#" class="btn btn-primary">Preview app
+                    <i class="bi bi-arrow-right"></i>
+                </a>
+                <a href="#" class="btn btn-primary">Website
+                    <i class="bi bi-arrow-right"></i>
+                </a>
+                <a href="#" class="btn btn-primary">Brand guide
+                    <i class="bi bi-download"></i>
+                </a>
+            </div>
+            <div class="col-lg-6 watis__ownit">
+                <img src="assets/ownit__5.png" alt="ownit__watis_ownit" class="img-fluid" id="ownit__watis_ownit">
+            </div>
+        </div>
+
+        <!--MEER INFORMATIE-->
+        <div class="row justify-content-center">
+            <div class="col-8 ownit__meer__informatie">
+                <h1>Wil je meer te weten komen? Aarzel dan niet om mij te contacteren</h1>
+                <div class="text-center">
+                    <a href="#" class="btn btn-primary">Contact me
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
-</nav>
-<!--EINDE NAV-->
-<!--EINDE HEADER-->
-
-
+</main>
 </body>
 </html>

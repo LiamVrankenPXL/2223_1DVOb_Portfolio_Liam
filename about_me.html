@@ -34,42 +34,6 @@
 <!--HEADER-->
 <!--NAVIGATIE-->
 <body>
-<nav class="navbar navbar-expand-lg fixed-top">
-    <div class="container-fluid">
-
-        <!--logo-->
-        <a class="navbar-brand" href="index.html"><img src="assets/logo.png" alt="Logo"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <!--linken-->
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about_me.html">About me</a>
-                </li>
-
-                <!--dropdown menu-->
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                       aria-expanded="false">Cases</a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="ownit.html">Ownit</a></li>
-                        <li><a class="dropdown-item" href="emcy_square.html">Emcy Square</a></li>
-                    </ul>
-                </li>
-
-                <!--light mode toggle-->
-                <li class="nav-item">
-                    <button class="btn btn-light" id="toggleMode">Light mode</button>
-                </li>
-            </ul>
-
 <header>
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container-fluid">
@@ -85,10 +49,10 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About me</a>
+                        <a class="nav-link" href="about_me.html">About me</a>
                     </li>
 
                     <!--dropdown menu-->
@@ -97,8 +61,8 @@
                            data-bs-toggle="dropdown"
                            aria-expanded="false">Cases</a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Ownit</a></li>
-                            <li><a class="dropdown-item" href="#">Emcy Square</a></li>
+                            <li><a class="dropdown-item" href="ownit.html">Ownit</a></li>
+                            <li><a class="dropdown-item" href="emcy_square.html">Emcy Square</a></li>
                         </ul>
                     </li>
 
@@ -125,7 +89,7 @@
 <main>
     <div class="container py-5 d-flex justify-content-center" id="wiebenik__hoofd">
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-6 py-5">
                 <h2>Wie ben ik?</h2>
                 <p>Ik ben Liam, een enthousiaste merkstrateeg, visual designer en developer.
                     Mijn grootste passie ligt bij branding, omdat ik het geweldig vind om een
@@ -237,8 +201,8 @@
 
 
 <!--            DIPLOMA'S-->
-            <div class="row">
-                <div class="diplomas" id="diplomas__hoofd">
+            <div class="row" id="diplomas__hoofd">
+                <div class="diplomas">
                     <h1>Diploma's</h1>
                 </div>
                 <!--Van bootstrap zelf (aangepast zelf)-->
@@ -323,7 +287,7 @@
     </div>
 </main>
 
-
+<!--FOOTER-->
 <!-- Footer component van bootstrap -->
 <footer class="text-center text-lg-start bg-white text-muted">
     <!-- Section: Social media -->
