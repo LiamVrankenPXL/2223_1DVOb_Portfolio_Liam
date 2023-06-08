@@ -7,13 +7,16 @@
 
 /*BODY*/
 /*Achtergrond foto toevoegen aan de browser bovenaan*/
-body {
+header {
     background-image: url("assets/achtergrond_aboutme.png");
     background-repeat: no-repeat;
-    background-color: #1A1A1A;
     background-size: cover;
     position: relative;
     height: 350px;
+}
+
+body {
+    background-color: #1A1A1A;
 }
 
 /*EINDE BODY*/
@@ -65,48 +68,49 @@ body {
     color: #ffffff;
 }
 
+
+header .titel h1 {
+    position: relative;
+    z-index: 2;
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 0;
+    top: 200px;
+    text-align: center;
+
+}
+
 /*EINDE NAVBAR*/
 /*EINDE HEADER*/
 
 
 /*MAIN*/
-main {
-    position: absolute;
-    z-index: 1;
-    margin-top: 150px;
-}
-
-
 /*titel over de foto heen*/
-.titel {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.titel h1 {
+.container p, .container h2 {
     color: #ffffff;
-    font-size: 50px;
-    font-weight: bold;
-    margin-top: 0;
 }
 
-.titel h2, .wiebenik__foto {
-    margin-top: 100px;
+.container h2 {
+    font-size: 30px;
 }
 
-.titel p, .titel h2 {
-    color: #ffffff;
-    padding-right: 35px;
-    padding-left: 35px;
+.container p {
+    font-size: 18px;
 }
 
-
-
-
+.samenwerking, .interesse {
+    margin-top: 50px;
+}
 
 /*teksten over mijzelf */
-
+main .opleidingen h1 {
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+}
 
 /*EINDE MAIN*/
 
