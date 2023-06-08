@@ -18,6 +18,9 @@ header {
 body {
     background-color: #1A1A1A;
 }
+p {
+    font-size: 16px;
+}
 
 /*EINDE BODY*/
 
@@ -95,22 +98,37 @@ header .titel h1 {
     font-size: 30px;
 }
 
-.container p {
-    font-size: 18px;
-}
-
 .samenwerking, .interesse {
     margin-top: 50px;
 }
 
 /*teksten over mijzelf */
-main .opleidingen h1 {
+main .opleidingen h1, main .diplomas h1, .kernwaarden h1 {
     color: #ffffff;
     font-size: 35px;
     font-weight: bold;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 55px;
+    margin-bottom: 40px;
 }
+ .opleidingen__rij, .kernwaarden__rij {
+     text-align: center;
+ }
+
+ .opleidingen__rij p, .kernwaarden__rij p {
+     padding: 25px;
+ }
+
+.card-img-top {
+    height: 250px;
+    width: 290px;
+}
+
+.kernwaarden__rij h2 {
+    font-size: 20px;
+    padding: 25px;
+}
+
 
 /*EINDE MAIN*/
 
