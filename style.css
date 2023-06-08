@@ -93,14 +93,17 @@ p {
     color: #ffffff;
 }
 
+/*TITEL*/
 header .titel h1 {
-    position: relative;
-    z-index: 2;
-    color: #ffffff;
     font-size: 50px;
     font-weight: bold;
+}
+
+header .titel {
+    position: relative;
+    z-index: 2;
     margin-top: 0;
-    top: 200px;
+    top: 150px;
     text-align: center;
 }
 /*EINDE NAVBAR*/
@@ -108,28 +111,40 @@ header .titel h1 {
 
 
 /*MAIN*/
-/*titel over de foto heen*/
+/*2e en 3e sectie van wie ben ik*/
 .samenwerking, .interesse {
     margin-top: 50px;
 }
 
-/*teksten over mijzelf */
-main .opleidingen h1, main .diplomas h1, .kernwaarden h1 {
+/*titel midden positionering met de juiste margins en stijl*/
+.opleidingen h1, .diplomas h1, .kernwaarden h1, .pxl__vraag h1, .creatie__branding h1,
+.pxl__web h1, .resultaat h1, .pxl__mijn__taken h1, .watis__ownit h1{
     color: #ffffff;
     font-weight: bold;
-    text-align: center;
-    margin-top: 55px;
+    margin-top: 100px;
     margin-bottom: 40px;
 }
- .opleidingen__rij, .kernwaarden__rij {
+
+.ownit__webimg img, .ownit__resultaatimg img, .creatie__img img, .watis__ownit img {
+    margin-top: 100px;
+}
+
+
+/*tekst in het midden zetten van container*/
+.opleidingen__rij, .kernwaarden__rij, .opleidingen h1,
+.diplomas h1, .kernwaarden h1 {
      text-align: center;
  }
 
-.card-img-top {
+
+/*DIPLOMA*/
+/*grote van de foto's in de cards*/
+#diplomas__hoofd .card-img-top {
     height: 250px;
     width: 290px;
 }
 
+/*KERNWAARDEN*/
 .kernwaarden__rij img {
     padding-top: 40px;
 }
@@ -138,6 +153,11 @@ main .opleidingen h1, main .diplomas h1, .kernwaarden h1 {
     padding: 30px;
 }
 /*EINDE MAIN*/
+
+
+
+
+
 
 
 /*FOOTER*/
