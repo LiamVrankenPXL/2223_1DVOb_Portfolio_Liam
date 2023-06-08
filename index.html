@@ -27,7 +27,51 @@
     <meta name="keywords" content="HTML,CSS,JAVASCRIPT">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+
+<!--HEADER-->
+<!--NAVIGATIE-->
 <body>
+<nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container-fluid">
+
+        <!--logo-->
+        <a class="navbar-brand" href="index.html"><img src="assets/logo.png" alt="Logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!--linken-->
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About me</a>
+                </li>
+
+                <!--dropdown menu-->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                       aria-expanded="false">Cases</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Ownit</a></li>
+                        <li><a class="dropdown-item" href="#">Emcy Square</a></li>
+                    </ul>
+                </li>
+
+                <!--light mode toggle-->
+                <li class="nav-item">
+                    <button class="btn btn-light" id="toggleMode">Light mode</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!--EINDE NAV-->
+<!--EINDE HEADER-->
+
 
 </body>
 </html>
