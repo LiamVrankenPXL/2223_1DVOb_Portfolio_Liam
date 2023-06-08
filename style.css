@@ -118,7 +118,7 @@ header .titel {
 
 /*titel midden positionering met de juiste margins en stijl*/
 .opleidingen h1, .diplomas h1, .kernwaarden h1, .pxl__vraag h1, .creatie__branding h1,
-.pxl__web h1, .resultaat h1, .pxl__mijn__taken h1, .watis__ownit h1{
+.pxl__web h1, .resultaat h1, .pxl__mijn__taken h1, .watis__ownit h1, .ownit__meer__informatie h1{
     color: #ffffff;
     font-weight: bold;
     margin-top: 100px;
@@ -129,6 +129,10 @@ header .titel {
     margin-top: 100px;
 }
 
+/*buttons*/
+.ownit__meer__informatie a {
+    padding: 15px;
+}
 
 /*tekst in het midden zetten van container*/
 .opleidingen__rij, .kernwaarden__rij, .opleidingen h1,
