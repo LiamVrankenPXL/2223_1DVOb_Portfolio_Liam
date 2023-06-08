@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("assets/achtergrond_aboutme.png");
+    background-repeat: no-repeat;
+}
+
+/*___HEADER*/
+/*____________NAVBAR*/
+
+.navbar {
+    background-color: #565555;
+    opacity: 20%;
+    display: flex;
+    align-items: center;
+    position: relative; /* Toegevoegd */
+    z-index: 2; /* Toegevoegd */
+}
+
+.background-image {
+    filter: blur(4px); /* Adjust the blur intensity as needed */
+
+    background-size: cover;
+}
+
+.navbar-brand{
+    width: 4rem;
+}
+
+.navbar .nav-link:hover, .nav-link .dropdown-toggle:hover, .nav-link .dropdown-item a:hover{
+    font-weight: bold;
+}
+.navbar .dropdown-menu{
+    border: none;
+}
+.navbar .dropdown-menu li:hover{
+    filter:invert(100);
+}
+.navbar .dropdown-menu li a:active{
+    background-color: rgba(182, 36, 36, 0.86);
+}
+
+.navbar-brand img{
+    width: 50%;
+}
+
+
+
