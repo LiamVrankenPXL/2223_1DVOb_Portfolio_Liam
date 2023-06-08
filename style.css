@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
 }
+
 /*BODY*/
 /*Achtergrond foto toevoegen aan de browser bovenaan*/
 body {
@@ -11,7 +12,10 @@ body {
     background-repeat: no-repeat;
     background-color: #1A1A1A;
     background-size: cover;
+    position: relative;
+    height: 350px;
 }
+
 /*EINDE BODY*/
 
 
@@ -66,7 +70,30 @@ body {
 
 
 /*MAIN*/
+main {
+    position: absolute;
+    z-index: 1;
+    margin-top: 150px;
+}
 
+/*titel over de foto heen*/
+.titel h1 {
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.titel h2, .wiebenik {
+    margin-top: 150px;
+    color: #ffffff;
+}
+
+.titel {
+    color: #ffffff;
+}
+
+
+/*teksten over mijzelf */
 
 
 /*EINDE MAIN*/
