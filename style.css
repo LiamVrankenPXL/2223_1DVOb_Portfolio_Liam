@@ -4,14 +4,46 @@
     margin: 0;
     padding: 0;
 }
+
 /*BODY*/
 /*Achtergrond foto toevoegen aan de browser bovenaan*/
-body {
+header {
     background-image: url("assets/achtergrond_aboutme.png");
     background-repeat: no-repeat;
-    background-color: #1A1A1A;
     background-size: cover;
+    position: relative;
+    height: 350px;
 }
+
+/*FONDS*/
+h1,h2,h3,h4,h5,h6, .navbar ul li a{
+    font-family: "Aptly", sans-serif;
+    color: #ffffff;
+}
+
+p,span, li, a {
+    font-family: new-order, sans-serif;
+    color: #ffffff;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+
+
+/*BODY*/
+body {
+    background-color: #1A1A1A;
+}
+p {
+    font-size: 16px;
+}
+
 /*EINDE BODY*/
 
 
@@ -61,13 +93,64 @@ body {
     color: #ffffff;
 }
 
+header .titel h1 {
+    position: relative;
+    z-index: 2;
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 0;
+    top: 200px;
+    text-align: center;
+}
 /*EINDE NAVBAR*/
 /*EINDE HEADER*/
 
 
 /*MAIN*/
+/*titel over de foto heen*/
+.samenwerking, .interesse {
+    margin-top: 50px;
+}
 
+/*teksten over mijzelf */
+main .opleidingen h1, main .diplomas h1, .kernwaarden h1 {
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 55px;
+    margin-bottom: 40px;
+}
+ .opleidingen__rij, .kernwaarden__rij {
+     text-align: center;
+ }
 
+.card-img-top {
+    height: 250px;
+    width: 290px;
+}
 
+.kernwaarden__rij img {
+    padding-top: 40px;
+}
+
+.kernwaarden__rij h2, .opleidingen__rij h2 {
+    padding: 30px;
+}
 /*EINDE MAIN*/
 
+
+/*FOOTER*/
+a {
+    text-decoration: none;
+}
+
+.footer__linken p {
+    color: #1A1A1A;
+}
+
+.footer__linken h6, footer span {
+    color: #1A1A1A;
+}
+
+/*EINDE FOOTER*/
