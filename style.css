@@ -1,0 +1,73 @@
+/*Standaard waardes voor de webpagina*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*BODY*/
+/*Achtergrond foto toevoegen aan de browser bovenaan*/
+body {
+    background-image: url("assets/achtergrond_aboutme.png");
+    background-repeat: no-repeat;
+    background-color: #1A1A1A;
+    background-size: cover;
+}
+/*EINDE BODY*/
+
+
+/*HEADER*/
+/*NAVBAR STIJL*/
+/*Blur effect als achtergrond doorschijning*/
+.navbar {
+    background-color: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.navbar-brand img {
+    max-width: 50px;
+    max-height: 50px;
+    margin-left: 25px;
+}
+
+.navbar-nav .nav-link {
+    margin-right: 20px;
+}
+
+#toggleMode {
+    margin-right: 25px;
+}
+
+/*TEKST STIJL*/
+.navbar-nav .nav-link {
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+}
+
+.navbar-nav .dropdown-menu .dropdown-item {
+    font-family: Arial, sans-serif;
+    color: black;
+}
+
+/*HOVER EFFECTEN*/
+.navbar-nav .dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.navbar-nav .dropdown-menu .dropdown-item:hover {
+    background-color: #1A1A1A;
+    color: #ffffff;
+}
+
+/*EINDE NAVBAR*/
+/*EINDE HEADER*/
+
+
+/*MAIN*/
+
+
+
+/*EINDE MAIN*/
+
