@@ -120,7 +120,7 @@ header .titel {
 .opleidingen h1, .diplomas h1, .kernwaarden h1, .pxl__vraag h1, .creatie__branding h1,
 .pxl__web h1, .resultaat h1, .pxl__mijn__taken h1, .watis__ownit h1, .ownit__meer__informatie h1,
 .emcy__creatie__branding h1, .emcy__appdesign h1, .emcy__resultaat h1, .emcy__mijntaken h1,
-.emcy__watishet h1{
+.emcy__watishet h1, .emcy__home h1, .emcy__meer__informatie h1{
     margin-top: 100px;
     margin-bottom: 40px;
 }
@@ -129,12 +129,12 @@ header .titel {
 }
 
 .ownit__webimg img, .ownit__resultaatimg img, .creatie__img img, .watis__ownit img,
-.emcy__appmock-up img, .emcy__watimg img{
+.emcy__appmock-up img, .emcy__watimg img, .emcy__homeimg img{
     margin-top: 100px;
 }
 
 /*buttons*/
-.ownit__meer__informatie a {
+.ownit__meer__informatie a, .emcy__meer__informatie a {
     padding: 15px;
 }
 
