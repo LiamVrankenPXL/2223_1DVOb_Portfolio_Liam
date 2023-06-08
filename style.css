@@ -19,6 +19,7 @@ header {
 h1,h2,h3,h4,h5,h6, .navbar ul li a{
     font-family: "Aptly", sans-serif;
     color: #ffffff;
+    font-weight: bold;
 }
 
 p,span, li, a {
@@ -96,7 +97,6 @@ p {
 /*TITEL*/
 header .titel h1 {
     font-size: 50px;
-    font-weight: bold;
 }
 
 header .titel {
@@ -118,14 +118,18 @@ header .titel {
 
 /*titel midden positionering met de juiste margins en stijl*/
 .opleidingen h1, .diplomas h1, .kernwaarden h1, .pxl__vraag h1, .creatie__branding h1,
-.pxl__web h1, .resultaat h1, .pxl__mijn__taken h1, .watis__ownit h1, .ownit__meer__informatie h1{
-    color: #ffffff;
-    font-weight: bold;
+.pxl__web h1, .resultaat h1, .pxl__mijn__taken h1, .watis__ownit h1, .ownit__meer__informatie h1,
+.emcy__creatie__branding h1, .emcy__appdesign h1, .emcy__resultaat h1, .emcy__mijntaken h1,
+.emcy__watishet h1{
     margin-top: 100px;
     margin-bottom: 40px;
 }
+.emcy__vraag h1{
+    margin-bottom: 40px;
+}
 
-.ownit__webimg img, .ownit__resultaatimg img, .creatie__img img, .watis__ownit img {
+.ownit__webimg img, .ownit__resultaatimg img, .creatie__img img, .watis__ownit img,
+.emcy__appmock-up img, .emcy__watimg img{
     margin-top: 100px;
 }
 
