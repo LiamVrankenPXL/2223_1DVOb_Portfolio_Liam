@@ -38,66 +38,95 @@ window.addEventListener('scroll', () => {
 
 // Sample data for the cards (replace with your own data)
 const projects = [
+
+    //photoshop data
     {
         title: "Project 1",
         category: "Photoshop",
-        image: "assets/Photoshop__2.jpg",
+        image: "assets/Photoshop__3.jpg",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     },
     {
         title: "Project 2",
         category: "Photoshop",
-        image: "assets/Photoshop__6.jpg",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    },
-    {
-        title: "Project 2",
-        category: "XD",
         image: "assets/Photoshop__3.jpg",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     },
     {
         title: "Project 2",
-        category: "XD",
+        category: "Photoshop",
         image: "assets/Photoshop__3.jpg",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },{
+        title: "Project 2",
+        category: "Photoshop",
+        image: "assets/Photoshop__3.jpg",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },{
+        title: "Project 2",
+        category: "Photoshop",
+        image: "assets/Photoshop__3.jpg",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },{
+        title: "Project 2",
+        category: "Photoshop",
+        image: "assets/Photoshop__3.jpg",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+
+    //XD data
+    {
+        title: "Project 2",
+        category: "XD",
+        image: "assets/Photoshop__4.jpg",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     },
     {
         title: "Project 2",
         category: "XD",
-        image: "assets/Photoshop__3.jpg",
+        image: "assets/Photoshop__4.jpg",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     },
     {
         title: "Project 2",
         category: "XD",
-        image: "assets/Photoshop__3.jpg",
+        image: "assets/Photoshop__4.jpg",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     },
     {
         title: "Project 2",
         category: "XD",
-        image: "assets/Photoshop__3.jpg",
+        image: "assets/Photoshop__4.jpg",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     },
-    // Add more projects here
+    {
+        title: "Project 2",
+        category: "XD",
+        image: "assets/Photoshop__4.jpg",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+        title: "Project 2",
+        category: "XD",
+        image: "assets/Photoshop__4.jpg",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
 ];
 
 // Function to generate the card HTML
 function generateCard(project) {
     return `
-        <div class="col-lg-2 col-md-4 col-sm-6 py-3 mx-1">
-            <div class="card">
-                <img src="${project.image}" class="card-img-top" alt="Project Image">
-                <div class="card-body">
-                    <h5 class="card-title">${project.title}</h5>
-                    <p class="card-text">${project.description}</p>
-                </div>
-            </div>
+    <div class="col-lg-2 col-md-3 col-sm-6 py-3 mx-1">
+      <div class="card">
+        <img src="${project.image}" class="card-img-top" alt="Project Image">
+        <div class="card-body">
+          <h5 class="card-title">${project.title}</h5>
+          <p class="card-text">${project.description}</p>
         </div>
-    `;
+      </div>
+    </div>
+  `;
 }
-
 
 // Function to display the filtered projects
 function displayProjects(projectsArray) {
