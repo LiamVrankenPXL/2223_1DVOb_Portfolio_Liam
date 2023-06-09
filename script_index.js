@@ -41,76 +41,117 @@ const projects = [
 
     //photoshop data
     {
-        title: "Project 1",
+        title: "White tiger",
         category: "Photoshop",
-        image: "assets/Photoshop__3.jpg",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        image: "assets/Photoshop__1.jpg",
+        description: "Mijn eerste project in photoshop, een combinatie van 2 afbeeldingen"
     },
     {
-        title: "Project 2",
+        title: "PE deel 1",
         category: "Photoshop",
-        image: "assets/Photoshop__3.jpg",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        image: "assets/Photoshop__2.jpg",
+        description: "Namaken van een afbeelding deel 1"
     },
     {
-        title: "Project 2",
+        title: "PE deel 2",
         category: "Photoshop",
         image: "assets/Photoshop__3.jpg",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    },{
-        title: "Project 2",
-        category: "Photoshop",
-        image: "assets/Photoshop__3.jpg",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    },{
-        title: "Project 2",
-        category: "Photoshop",
-        image: "assets/Photoshop__3.jpg",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    },{
-        title: "Project 2",
-        category: "Photoshop",
-        image: "assets/Photoshop__3.jpg",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        description: "Namaken van een afbeelding deel 2"
     },
+    {
+        title: "The bear",
+        category: "Photoshop",
+        image: "assets/Photoshop__4.jpg",
+        description: ""
+    },
+    {
+        title: "Book cover",
+        category: "Photoshop",
+        image: "assets/Photoshop__5.jpg",
+        description: ""
+    },
+    {
+        title: "Illustration",
+        category: "Photoshop",
+        image: "assets/Photoshop__6.jpg",
+        description: ""
+    },
+    {
+        title: "Advertentie",
+        category: "Photoshop",
+        image: "assets/Photoshop__7.png",
+        description: ""
+    },
+    {
+        title: "Dark rooter",
+        category: "Photoshop",
+        image: "assets/Photoshop__8.png",
+        description: "Mock-up van mijn eigen lettertype 1"
+    },
+    {
+        title: "Movie poster: I Robot",
+        category: "Photoshop",
+        image: "assets/Photoshop__9.png",
+        description: "Gemaakt in illustrator, kleuren en textuur in photoshop"
+    },
+    {
+        title: "Dark rooter poster",
+        category: "Photoshop",
+        image: "assets/Photoshop__10.png",
+        description: "Mock-up van mijn eigen lettertype 2"
+    },
+    {
+        title: "Compositie",
+        category: "Photoshop",
+        image: "assets/Photoshop__11.png",
+        description: "Compositie van 3 afbeeldingen"
+    },
+
 
     //XD data
     {
-        title: "Project 2",
+        title: "",
         category: "XD",
-        image: "assets/Photoshop__4.jpg",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        image: "assets/",
+        description: ""
     },
+
+
+    //Digital branding data
     {
-        title: "Project 2",
+        title: "",
         category: "XD",
-        image: "assets/Photoshop__4.jpg",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        image: "assets/",
+        description: ""
     },
+
+
+    //Illustrator data
     {
-        title: "Project 2",
+        title: "",
         category: "XD",
-        image: "assets/Photoshop__4.jpg",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        image: "assets/",
+        description: ""
     },
+
+
+    //Werkplekleren data
     {
-        title: "Project 2",
+        title: "",
         category: "XD",
-        image: "assets/Photoshop__4.jpg",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        image: "assets/",
+        description: ""
     },
+
+
+    //Fotografie data
     {
-        title: "Project 2",
+        title: "",
         category: "XD",
-        image: "assets/Photoshop__4.jpg",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        image: "assets/",
+        description: ""
     },
-    {
-        title: "Project 2",
-        category: "XD",
-        image: "assets/Photoshop__4.jpg",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    },
+
 ];
 
 // Function to generate the card HTML
