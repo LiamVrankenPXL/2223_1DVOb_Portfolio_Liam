@@ -140,8 +140,6 @@ section .container{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
-    width: 900px;
 }
 
 section img{
@@ -154,22 +152,20 @@ section .container > *{
 
 .content{
     color: #fff;
-    transform: translateY(-50px);
 }
 
-.imgContainer{
-    transform: translateY(50px);
-}
 
 /*FILTER BADGES*/
+
 .filter_bagge span{
-    background-color: #261F56;
+    background-color: #6e57ea;
     font-size: 16px;
     padding: 15px 18px ;
     margin: 10px 10px;
 }
+
 .filter_bagge span:hover{
-    background-color: #4A4A82;
+    background-color: #3bcbb9;
 }
 
 .shadow{
@@ -184,6 +180,51 @@ section .container > *{
 
 .opacity{
     opacity: 0;
+}
+
+
+/* Cards */
+.card {
+    position: relative;
+    overflow: hidden;
+}
+
+.card:hover img {
+    filter: blur(6px) brightness(70%);
+}
+
+
+.card:hover .card-body {
+    opacity: 1;
+}
+.card .card-body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%; /* Aanpassen aan je voorkeur */
+    padding: 10px;
+    color: #fff;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    text-align: center;
+}
+
+.card .card-body h5,
+.card .card-body p {
+    margin: 0;
+}
+
+.card h5, .card p {
+    color: #ffffff;
+}
+
+.card h5 {
+    font-size: 25px;
+}
+
+.card p {
+    font-size: 16px;
 }
 
 
