@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #1A1A1A;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.navbar-brand img {
+    max-width: 50px;
+    max-height: 50px;
+    margin-left: 25px;
+}
+
+.navbar-nav .nav-link {
+    margin-right: 20px;
+}
+
+#toggleMode {
+    margin-right: 25px;
+}
+
+/*TEKST STIJL*/
+.navbar-nav .nav-link {
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+}
+
+.navbar-nav .dropdown-menu .dropdown-item {
+    font-family: Arial, sans-serif;
+    color: black;
+}
+
+/*HOVER EFFECTEN*/
+.navbar-nav .dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.navbar-nav .dropdown-menu .dropdown-item:hover {
+    background-color: #1A1A1A;
+    color: #ffffff;
+}
+
+
+
+/*PARALAX EFFECT START*/
+/*FOTO'S*/
+.mountain1{
+    position: absolute;
+    bottom: -100px;
+    width: 1500px;
+    right: 0;
+    z-index: 19;
+}
+
+.person{
+    position: absolute;
+    width: 650px;
+    bottom: -100px;
+    left: -70px;
+    z-index: 20;
+}
+
+.mountain2{
+    position: absolute;
+    width: 1100px;
+    bottom: -100px;
+    left: 0;
+    z-index: 18;
+}
+
+.mountain3{
+    position: absolute;
+    width: 900px;
+    bottom: 150px;
+    right: 0;
+    z-index: 17;
+}
+
+.sky{
+    position: absolute;
+    width: 2100px;
+    bottom: 250px;
+    right: 0;
+}
+
+/*TITEL EN SUBTITEL*/
+.big-title, .subtitle {
+    position: absolute;
+    z-index: 30;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+.big-title{
+    line-height: 4rem;
+    top: calc(50% - 2rem);
+    width: 100%;
+    font-weight: 600;
+}
+.subtitle {
+    line-height: 3rem;
+    top: calc(50% + 2rem);
+    font-size: 2rem;
+    font-weight: 400;
+}
+/*PARRALAX EINDE*/
+
+
+/*FILTER SECTIE*/
+section{
+    position: relative;
+}
+
+section .container{
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 900px;
+}
+
+section img{
+    width: 100%;
+}
+
+section .container > *{
+    margin: 2rem;
+}
+
+.content{
+    color: #fff;
+    transform: translateY(-50px);
+}
+
+.imgContainer{
+    transform: translateY(50px);
+}
+
+/*FILTER BADGES*/
+.filter_bagge span{
+    background-color: #261F56;
+    font-size: 16px;
+    padding: 15px 18px ;
+    margin: 10px 10px;
+}
+.filter_bagge span:hover{
+    background-color: #4A4A82;
+}
+
+.shadow{
+    position: absolute;
+    bottom: 100%;
+    height: 250px;
+    width: 100%;
+    left: 0;
+    z-index: 20;
+    background: linear-gradient(to top, #151515, transparent);
+}
+
+.opacity{
+    opacity: 0;
+}
+
+
+@media(max-width: 600px){
+    .big-title{
+        font-size: 3rem
+    }
+
+    .text{
+        font-size: .8rem;
+    }
+
+    .title{
+        font-size: 1.2rem;
+    }
+    .subtitle {
+        font-size: 1.5rem;
+    }
+}
