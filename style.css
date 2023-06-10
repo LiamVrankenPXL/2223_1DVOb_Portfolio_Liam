@@ -145,13 +145,6 @@ header .titel {
  }
 
 
-/*DIPLOMA*/
-/*grote van de foto's in de cards*/
-#diplomas__hoofd .card-img-top {
-    height: 250px;
-    width: 290px;
-}
-
 /*KERNWAARDEN*/
 .kernwaarden__rij img {
     padding-top: 40px;

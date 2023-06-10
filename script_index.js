@@ -108,6 +108,30 @@ const projects = [
     },
 
 
+    //UX data--------------------------------------------------------------------------------
+    {
+        title: "Testplan + interview analyse",
+        category: "UX",
+        image: "assets/pdf__download.png",
+        description: "Groepswerk deel 1",
+        link: "assets/Analyse_Voedingspatronen_Bij_Studenten.pdf"
+    },
+    {
+        title: "Analyse van data",
+        category: "UX",
+        image: "assets/pdf__download.png/",
+        description: "Groepswerk deel 2",
+        link: "assets/1DVO_Opdracht_3_UserTesting.pdf"
+    },
+    {
+        title: "Test fasen",
+        category: "UX",
+        image: "assets/pdf__download.png",
+        description: "Groepswerk deel 3",
+        link: "assets/1DVO_a-b_Observaties_Organiseren&Structureren.pdf"
+    },
+
+
 
     //It organisation data--------------------------------------------------------------------------------
     {
