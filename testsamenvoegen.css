@@ -29,11 +29,13 @@ h1,h2,h3,h4,h5,h6, .navbar ul li a{
     height: 350px;
 }
 
-#emcy-header h1, #aboutme-header h1, #ownit-header h1 {
+
+/*TITEL*/
+header .titel h1 {
     font-size: 50px;
 }
 
-header .title h1, header .title p {
+header .titel {
     position: relative;
     z-index: 2;
     margin-top: 0;
