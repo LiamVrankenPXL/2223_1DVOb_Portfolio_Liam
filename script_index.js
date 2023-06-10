@@ -39,7 +39,7 @@ window.addEventListener('scroll', () => {
 // Sample data for the cards (replace with your own data)
 const projects = [
 
-    //photoshop data
+    //photoshop data--------------------------------------------------------------------------------
     {
         title: "White tiger",
         category: "Photoshop",
@@ -108,66 +108,326 @@ const projects = [
     },
 
 
-    //XD data
+    //Digital branding data--------------------------------------------------------------------------------
     {
         title: "",
-        category: "XD",
+        category: "Digital branding",
         image: "assets/",
         description: ""
     },
 
 
-    //Digital branding data
+    //Illustrator data--------------------------------------------------------------------------------
     {
-        title: "",
-        category: "XD",
-        image: "assets/",
+        title: "Pinguïn",
+        category: "Illustrator",
+        image: "assets/Illustrator__1.svg",
         description: ""
+    },
+    {
+        title: "Kalligrafie",
+        category: "Illustrator",
+        image: "assets/Illustrator__2.svg",
+        description: ""
+    },
+    {
+        title: "3D ster",
+        category: "Illustrator",
+        image: "assets/Illustrator__3.png",
+        description: ""
+    },
+    {
+        title: "3D domino's logo",
+        category: "Illustrator",
+        image: "assets/Illustrator__4.png",
+        description: ""
+    },
+    {
+        title: "Droomvanger",
+        category: "Illustrator",
+        image: "assets/Illustrator__5.png",
+        description: ""
+    },
+    {
+        title: "Magere hein",
+        category: "Illustrator",
+        image: "assets/Illustrator__6.png",
+        description: ""
+    },
+    {
+        title: "2D huis",
+        category: "Illustrator",
+        image: "assets/Illustrator__7.png",
+        description: ""
+    },
+    {
+        title: "PE",
+        category: "Illustrator",
+        image: "assets/Illustrator__8.svg",
+        description: ""
+    },
+    {
+        title: "Compas",
+        category: "Illustrator",
+        image: "assets/Illustrator__9.png",
+        description: ""
+    },
+    {
+        title: "wilde boom op een drijvende rots",
+        category: "Illustrator",
+        image: "assets/Illustrator__10.png",
+        description: ""
+    },
+    {
+        title: "3D sushi",
+        category: "Illustrator",
+        image: "assets/Illustrator__11.png",
+        description: ""
+    },
+    {
+        title: "Font folio: Dark rooter",
+        category: "Illustrator",
+        image: "assets/pdf__download.png",
+        description: "Het font folio van mijn eigen lettertype",
+        link: "assets/Illustrator__12.pdf"
+    },
+    {
+        title: "Font folio: Apolline Std",
+        category: "Illustrator",
+        image: "assets/pdf__download.png",
+        description: "Font folio van een lettertype als oefening.",
+        link: "assets/Illustrator__13.pdf"
+    },
+    {
+        title: "Film poster",
+        category: "Illustrator",
+        image: "assets/Illustrator__14.png",
+        description: "Een film poster van dee Gods of Egypt"
+    },
+    {
+        title: "Initialen logo",
+        category: "Illustrator",
+        image: "assets/Illustrator__15.png",
+        description: ""
+    },
+    {
+        title: "Tinyhouse logo",
+        category: "Illustrator",
+        image: "assets/Illustrator__16.png",
+        description: "Dit was een logo design in verband met een oefening"
+    },
+    {
+        title: "Logo van mijzelf",
+        category: "Illustrator",
+        image: "assets/Illustrator__17.png",
+        description: "Mijn eerste logo van mezelf: Het is een ambigram"
+    },
+    {
+        title: "Logo van mijzelf",
+        category: "Illustrator",
+        image: "assets/Illustrator__18.png",
+        description: "Een mock-up van de soorten grootte"
+    },
+    {
+        title: "2D kamer",
+        category: "Illustrator",
+        image: "assets/Illustrator__19.png",
+        description: "Mijn kamer in het 2D getekend"
     },
 
 
-    //Illustrator data
+    //Werkplekleren data--------------------------------------------------------------------------------
     {
-        title: "",
-        category: "XD",
-        image: "assets/",
-        description: ""
+        title: "Reflecteren en feedback",
+        category: "Werkplekleren",
+        image: "assets/pdf__download.png",
+        description: "Oefening voor WPL1",
+        link:"assets/wpl__1DVOb_LiamVranken_Reflecteren en feedback_2022-2023.pdf"
+    },
+    {
+        title: "Dashboard",
+        category: "Werkplekleren",
+        image: "assets/pdf__download.png",
+        description: "Groepswerk oefening voor WPL1",
+        link:"assets/wpl__Dashboard CV_1DVOb_Groep 13_Liam Vranken_Dries Albert_Frederic Steegmans.pdf"
+    },
+    {
+        title: "Personal branding",
+        category: "Werkplekleren",
+        image: "assets/pdf__download.png",
+        description: "Oefening voor WPL1",
+        link:"assets/wpl__PersonalBranding_Liam_Vranken.pdf"
+    },
+    {
+        title: "Analyse arbeidsmarkt",
+        category: "Werkplekleren",
+        image: "assets/pdf__download.png",
+        description: "Oefening voor WPL1",
+        link:"assets/wpl__Vranken_Liam_1DVOb_Analyse-Arbeidsmarkt.pdf"
+    },
+    {
+        title: "Motivatie, Kernwaarden en kernkwadranten",
+        category: "Werkplekleren",
+        image: "assets/pdf__download.png",
+        description: "Oefening voor WPL1",
+        link:"assets/wpl__Watisjouwmotivatie_Kernwaarden_Kernkwadranten_Liam_Vranken.pdf"
+    },
+    {
+        title: "Reflectie seminaries",
+        category: "Werkplekleren",
+        image: "assets/pdf__download.png",
+        description: "Oefening voor WPL1",
+        link:"assets/wpl__Vranken_Liam_1DVOb_Reflectie-Seminaries.pdf"
+    },
+    {
+        title: "Eindreflectie",
+        category: "Werkplekleren",
+        image: "assets/pdf__download.png",
+        description: "Eindreflectie WPL1",
+        link:"assets/wpl__Vranken_Liam_1DVOb_Eindreflectie.pdf"
+    },
+    {
+        title: "Eindreflectie",
+        category: "Werkplekleren",
+        image: "",
+        description: "Eindreflectie WPL2",
+        link:""
     },
 
 
-    //Werkplekleren data
+    //Fotografie data--------------------------------------------------------------------------------
     {
-        title: "",
-        category: "XD",
-        image: "assets/",
+        title: "Zwart wit bloem met waterdruppels",
+        category: "Fotografie",
+        image: "assets/fotogalerij__1.jpg",
         description: ""
     },
-
-
-    //Fotografie data
     {
-        title: "",
-        category: "XD",
-        image: "assets/",
+        title: "Roze bloem",
+        category: "Fotografie",
+        image: "assets/fotogalerij__2.jpg",
         description: ""
     },
-
+    {
+        title: "Zonsondergang",
+        category: "Fotografie",
+        image: "assets/fotogalerij__3.jpg",
+        description: "Een uniek fenomeen in de lucht"
+    },
+    {
+        title: "Zonstralen achter de wolken",
+        category: "Fotografie",
+        image: "assets/fotogalerij__4.jpg",
+        description: ""
+    },
+    {
+        title: "Originele bloem met waterdruppels",
+        category: "Fotografie",
+        image: "assets/fotogalerij__5.jpg",
+        description: "Het is de originele foto van de eerste foto"
+    },
+    {
+        title: "Bergen landschap",
+        category: "Fotografie",
+        image: "assets/fotogalerij__6.jpg",
+        description: "Terhills"
+    },
+    {
+        title: "Wild vuur",
+        category: "Fotografie",
+        image: "assets/fotogalerij__7.jpg",
+        description: ""
+    },
+    {
+        title: "Horizon",
+        category: "Fotografie",
+        image: "assets/fotogalerij__8.jpg",
+        description: ""
+    },
+    {
+        title: "Zonsopgang",
+        category: "Fotografie",
+        image: "assets/fotogalerij__9.jpg",
+        description: ""
+    },
+    {
+        title: "Zonsondergang",
+        category: "Fotografie",
+        image: "assets/fotogalerij__10.jpg",
+        description: ""
+    },
+    {
+        title: "Landschap windmolens",
+        category: "Fotografie",
+        image: "assets/fotogalerij__11.jpg",
+        description: ""
+    },
+    {
+        title: "Unieke zon stralen",
+        category: "Fotografie",
+        image: "assets/fotogalerij__12.jpg",
+        description: ""
+    },
+    {
+        title: "Oostende horizon",
+        category: "Fotografie",
+        image: "assets/fotogalerij__13.jpg",
+        description: ""
+    },
+    {
+        title: "Oostende dag",
+        category: "Fotografie",
+        image: "assets/fotogalerij__14.jpg",
+        description: ""
+    },
+    {
+        title: "Almost night view",
+        category: "Fotografie",
+        image: "assets/fotogalerij__15.jpg",
+        description: ""
+    },
+    {
+        title: "Italië Horizon",
+        category: "Fotografie",
+        image: "assets/fotogalerij__16.jpg",
+        description: ""
+    },
+    {
+        title: "Italië ver zicht",
+        category: "Fotografie",
+        image: "assets/fotogalerij__17.jpg",
+        description: ""
+    },
+    {
+        title: "Italië zee",
+        category: "Fotografie",
+        image: "assets/fotogalerij__18.jpg",
+        description: ""
+    },
 ];
 
 // Function to generate the card HTML
 function generateCard(project) {
+    let imageHTML = '';
+    if (project.link) {
+        imageHTML = `<a href="${project.link}" target="_blank"><img src="${project.image}" class="card-img-top" alt="Project Image"></a>`;
+    } else {
+        imageHTML = `<img src="${project.image}" class="card-img-top" alt="Project Image">`;
+    }
+
     return `
-    <div class="col-lg-2 col-md-3 col-sm-6 py-3 mx-1">
-      <div class="card">
-        <img src="${project.image}" class="card-img-top" alt="Project Image">
-        <div class="card-body">
-          <h5 class="card-title">${project.title}</h5>
-          <p class="card-text">${project.description}</p>
+        <div class="col-lg-2 col-md-3 col-sm-6 py-3 mx-1">
+            <div class="card">
+                ${imageHTML}
+                <div class="card-body">
+                    <h5 class="card-title">${project.title}</h5>
+                    <p class="card-text">${project.description}</p>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  `;
+    `;
 }
+
 
 // Function to display the filtered projects
 function displayProjects(projectsArray) {
