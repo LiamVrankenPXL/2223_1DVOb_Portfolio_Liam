@@ -510,7 +510,7 @@ function generateCard(project) {
     }
 
     return `
-        <div class="col-lg-2 col-md-3 col-sm-6 py-3 mx-1">
+        <div class="col-lg-2 col-md-3 col-sm-4 py-3 mx-1">
             <div class="card">
                 ${imageHTML}
                 <div class="card-body">

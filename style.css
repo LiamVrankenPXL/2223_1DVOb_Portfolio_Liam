@@ -167,6 +167,7 @@ p {
     width: 100%;
     text-align: center;
     color: #fff;
+    margin-top: -50px;
 }
 
 .big-title{
@@ -183,6 +184,16 @@ p {
 }
 /*PARRALAX EINDE*/
 
+
+/*OWNIT*/
+.ownit__webimg, .emcy__appmock-up {
+    text-align: center;
+}
+
+.ownit__webimg img, .emcy__appmock-up img{
+    max-width: 100%;
+    height: auto;
+}
 
 
 
@@ -231,9 +242,6 @@ p {
 }
 
 
-
-
-
 /*FILTER SECTIE*/
 #filter-cards section{
     position: relative;
@@ -255,7 +263,7 @@ p {
     margin: 2rem;
 }
 
-.content{
+.content, .content span{
     color: #fff;
 }
 
@@ -263,8 +271,9 @@ p {
 .categoria_badge {
     display: inline-block;
     padding: 8px 12px;
+    margin-bottom: 10px;
     border-radius: 10px;
-    background-color: #6e57ea;
+    background-color: #c1b688;
     color: #333;
     cursor: pointer;
 }
@@ -295,8 +304,10 @@ p {
 
 
 /* Cards */
+
 #card-container {
     margin-right: 0;
+    margin-bottom: 200px;
 }
 
 .card {
@@ -344,25 +355,56 @@ p {
 
 
 
+/* CONTACT FORM */
+#contact-me h1{
+    color: #000000;
+}
 
+.first_col {
+    background-color: white;
+    height: 550px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+    position: relative;
+    width: 550px;
+    left: 155px;
+    top: 171px;
+    border-radius: 20px;
+}
 
+.img-fluid {
+    border-radius: 20px;
+}
 
+.row-last {
+    width: 60%;
+    position: relative;
+    left: 350px;
+    top: 50px;
+    height: 215px;
+    padding-bottom: 100px;
+    background-color: #c1b688;
+    border-radius: 20px;
+}
 
+.btn-primary {
+    background-color: #c1b688;
+    border: #c1b688;
+}
 
+.btn-primary:hover {
+    background-color: #884b88;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.form-control {
+    height: 52px;
+    background: #fff;
+    font-size: 14px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    border-bottom: 1px solid #c1b688 !important;
+    border-radius: unset;
+}
 
 
 /*FOOTER*/
@@ -370,12 +412,19 @@ a {
     text-decoration: none;
 }
 
-.footer__linken p {
-    color: #1A1A1A;
+.footer__linken, .text-muted {
+    background-color: #c1b688;
 }
 
-.footer__linken h6, footer span {
-    color: #1A1A1A;
+.footer__linken p, .footer__linken h6, footer span {
+    color: rgba(21, 21, 21, 0.76);
+}
+
+.footer__linken h6 {
+    font-size: 25px;
+}
+footer .white-icon {
+    color: #ffffff;
 }
 
 /*EINDE FOOTER*/
@@ -395,5 +444,20 @@ a {
     }
     .subtitle {
         font-size: 1.5rem;
+    }
+    .first_col {
+        position: initial;
+        left: 0;
+    }
+
+    .sec_col {
+        order: 1;
+    }
+
+    .row-last {
+        left: 0;
+        width: 100%;
+        height: 500px;
+        top: 0;
     }
 }
