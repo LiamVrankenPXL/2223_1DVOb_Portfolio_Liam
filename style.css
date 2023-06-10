@@ -5,9 +5,23 @@
     padding: 0;
 }
 
-/*BODY*/
+
+/*FONDS*/
+h1,h2,h3,h4,h5,h6, .navbar ul li a{
+    font-family: "Aptly", sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+#index{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
 /*Achtergrond foto toevoegen aan de browser bovenaan*/
-header {
+#emcy-header, #aboutme-header, #ownit-header {
     background-image: url("assets/achtergrond_aboutme.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -15,11 +29,23 @@ header {
     height: 350px;
 }
 
-/*FONDS*/
-h1,h2,h3,h4,h5,h6, .navbar ul li a{
-    font-family: "Aptly", sans-serif;
-    color: #ffffff;
-    font-weight: bold;
+
+/*TITEL*/
+header .titel h1 {
+    font-size: 50px;
+}
+
+header .titel {
+    position: relative;
+    z-index: 2;
+    margin-top: 0;
+    top: 150px;
+    text-align: center;
+}
+
+/*BODY*/
+body {
+    background-color: #1A1A1A;
 }
 
 p,span, li, a {
@@ -35,17 +61,9 @@ h2 {
     font-size: 30px;
 }
 
-
-
-/*BODY*/
-body {
-    background-color: #1A1A1A;
-}
 p {
     font-size: 16px;
 }
-
-/*EINDE BODY*/
 
 
 /*HEADER*/
@@ -69,9 +87,6 @@ p {
     margin-right: 20px;
 }
 
-#toggleMode {
-    margin-right: 25px;
-}
 
 /*TEKST STIJL*/
 .navbar-nav .nav-link {
@@ -94,20 +109,75 @@ p {
     color: #ffffff;
 }
 
-/*TITEL*/
-header .titel h1 {
-    font-size: 50px;
+
+
+
+/*PARALAX EFFECT START*/
+/*FOTO'S*/
+.mountain1{
+    position: absolute;
+    bottom: -100px;
+    width: 1500px;
+    right: 0;
+    z-index: 19;
 }
 
-header .titel {
-    position: relative;
-    z-index: 2;
-    margin-top: 0;
-    top: 150px;
-    text-align: center;
+.person{
+    position: absolute;
+    width: 650px;
+    bottom: -100px;
+    left: -70px;
+    z-index: 20;
 }
-/*EINDE NAVBAR*/
-/*EINDE HEADER*/
+
+.mountain2{
+    position: absolute;
+    width: 1100px;
+    bottom: -100px;
+    left: 0;
+    z-index: 18;
+}
+
+.mountain3{
+    position: absolute;
+    width: 900px;
+    bottom: 150px;
+    right: 0;
+    z-index: 17;
+}
+
+.sky{
+    position: absolute;
+    width: 2100px;
+    bottom: 250px;
+    right: 0;
+}
+
+
+/*TITEL EN SUBTITEL*/
+.big-title, .subtitle {
+    position: absolute;
+    z-index: 30;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+.big-title{
+    line-height: 4rem;
+    top: calc(50% - 2rem);
+    width: 100%;
+    font-weight: 600;
+}
+.subtitle {
+    line-height: 3rem;
+    top: calc(50% + 2rem);
+    font-size: 2rem;
+    font-weight: 400;
+}
+/*PARRALAX EINDE*/
+
+
 
 
 /*MAIN*/
@@ -141,16 +211,9 @@ header .titel {
 /*tekst in het midden zetten van container*/
 .opleidingen__rij, .kernwaarden__rij, .opleidingen h1,
 .diplomas h1, .kernwaarden h1 {
-     text-align: center;
- }
-
-
-/*DIPLOMA*/
-/*grote van de foto's in de cards*/
-#diplomas__hoofd .card-img-top {
-    height: 250px;
-    width: 290px;
+    text-align: center;
 }
+
 
 /*KERNWAARDEN*/
 .kernwaarden__rij img {
@@ -160,7 +223,125 @@ header .titel {
 .kernwaarden__rij h2, .opleidingen__rij h2 {
     padding: 30px;
 }
-/*EINDE MAIN*/
+
+
+
+
+
+/*FILTER SECTIE*/
+#filter-cards section{
+    position: relative;
+}
+
+#filter-cards section .container{
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#filter-cards section img{
+    width: 100%;
+}
+
+#filter-cards section .container > *{
+    margin: 2rem;
+}
+
+.content{
+    color: #fff;
+}
+
+/*FILTER BADGES*/
+.categoria_badge {
+    display: inline-block;
+    padding: 8px 12px;
+    border-radius: 10px;
+    background-color: #6e57ea;
+    color: #333;
+    cursor: pointer;
+}
+
+.categoria_badge:hover {
+    background-color: #3bcbb9;
+}
+
+.categoria_badge.active {
+    background-color: #3bcbb9;
+    color: #fff;
+}
+
+
+.shadow{
+    position: absolute;
+    bottom: 100%;
+    height: 250px;
+    width: 100%;
+    left: 0;
+    z-index: 20;
+    background: linear-gradient(to top, #151515, transparent);
+}
+
+.opacity{
+    opacity: 0;
+}
+
+
+/* Cards */
+.card {
+    position: relative;
+    overflow: hidden;
+}
+
+.card:hover img {
+    filter: blur(6px) brightness(70%);
+}
+
+
+.card:hover .card-body {
+    opacity: 1;
+}
+.card .card-body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%; /* Aanpassen aan je voorkeur */
+    padding: 10px;
+    color: #fff;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    text-align: center;
+}
+
+.card .card-body h5,
+.card .card-body p {
+    margin: 0;
+}
+
+.card h5, .card p {
+    color: #ffffff;
+}
+
+.card h5 {
+    font-size: 25px;
+}
+
+.card p {
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -182,3 +363,21 @@ a {
 }
 
 /*EINDE FOOTER*/
+
+
+@media(max-width: 600px){
+    .big-title{
+        font-size: 3rem
+    }
+
+    .text{
+        font-size: .8rem;
+    }
+
+    .title{
+        font-size: 1.2rem;
+    }
+    .subtitle {
+        font-size: 1.5rem;
+    }
+}
