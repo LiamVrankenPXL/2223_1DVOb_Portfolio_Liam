@@ -5,9 +5,23 @@
     padding: 0;
 }
 
-/*BODY*/
+
+/*FONDS*/
+h1,h2,h3,h4,h5,h6, .navbar ul li a{
+    font-family: "Aptly", sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+#index header{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
 /*Achtergrond foto toevoegen aan de browser bovenaan*/
-header {
+#emcy-header, #aboutme-header, #ownit-header {
     background-image: url("assets/achtergrond_aboutme.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -15,14 +29,24 @@ header {
     height: 350px;
 }
 
-/*FONDS*/
-h1, h2, h3, h4, h5, h6, .navbar ul li a {
-    font-family: "Aptly", sans-serif;
-    color: #ffffff;
-    font-weight: bold;
+#emcy-header h1, #aboutme-header h1, #ownit-header h1 {
+    font-size: 50px;
 }
 
-p, span, li, a {
+header .title h1, header .title p {
+    position: relative;
+    z-index: 2;
+    margin-top: 0;
+    top: 150px;
+    text-align: center;
+}
+
+/*BODY*/
+body {
+    background-color: #1A1A1A;
+}
+
+p,span, li, a {
     font-family: new-order, sans-serif;
     color: #ffffff;
 }
@@ -35,16 +59,10 @@ h2 {
     font-size: 30px;
 }
 
-/*BODY*/
-body {
-    background-color: #1A1A1A;
-}
-
 p {
     font-size: 16px;
 }
 
-/*EINDE BODY*/
 
 /*HEADER*/
 /*NAVBAR STIJL*/
@@ -92,111 +110,12 @@ p {
     color: #ffffff;
 }
 
-/*TITEL*/
-header .titel h1 {
-    font-size: 50px;
-}
-
-header .titel {
-    position: relative;
-    z-index: 2;
-    margin-top: 0;
-    top: 150px;
-    text-align: center;
-}
-/*EINDE NAVBAR*/
-/*EINDE HEADER*/
 
 
-/*MAIN*/
-/*2e en 3e sectie van wie ben ik*/
-.samenwerking,
-.interesse,
-.opleidingen,
-.diplomas,
-.kernwaarden,
-.pxl__vraag,
-.creatie__branding,
-.pxl__web,
-.resultaat,
-.pxl__mijn__taken,
-.watis__ownit,
-.ownit__meer__informatie,
-.emcy__creatie__branding,
-.emcy__appdesign,
-.emcy__resultaat,
-.emcy__mijntaken,
-.emcy__watishet,
-.emcy__home,
-.emcy__meer__informatie {
-    margin-top: 50px;
-}
-
-/*titel midden positionering met de juiste margins en stijl*/
-.opleidingen h1,
-.diplomas h1,
-.kernwaarden h1,
-.pxl__vraag h1,
-.creatie__branding h1,
-.pxl__web h1,
-.resultaat h1,
-.pxl__mijn__taken h1,
-.watis__ownit h1,
-.ownit__meer__informatie h1,
-.emcy__creatie__branding h1,
-.emcy__appdesign h1,
-.emcy__resultaat h1,
-.emcy__mijntaken h1,
-.emcy__watishet h1,
-.emcy__home h1,
-.emcy__meer__informatie h1 {
-    margin-top: 100px;
-    margin-bottom: 40px;
-}
-
-.emcy__vraag h1 {
-    margin-bottom: 40px;
-}
-
-.ownit__webimg img,
-.ownit__resultaatimg img,
-.creatie__img img,
-.watis__ownit img,
-.emcy__appmock-up img,
-.emcy__watimg img,
-.emcy__homeimg img {
-    margin-top: 100px;
-}
-
-/*buttons*/
-.ownit__meer__informatie a,
-.emcy__meer__informatie a {
-    padding: 15px;
-}
-
-/*tekst in het midden zetten van container*/
-.opleidingen__rij,
-.kernwaarden__rij,
-.opleidingen h1,
-.diplomas h1,
-.kernwaarden h1 {
-    text-align: center;
-}
-
-/*KERNWAARDEN*/
-.kernwaarden__rij img {
-    padding-top: 40px;
-}
-
-.kernwaarden__rij h2,
-.opleidingen__rij h2 {
-    padding: 30px;
-}
-/*EINDE MAIN*/
 
 /*PARALAX EFFECT START*/
 /*FOTO'S*/
-.mountain1 {
+.mountain1{
     position: absolute;
     bottom: -100px;
     width: 1500px;
@@ -204,7 +123,7 @@ header .titel {
     z-index: 19;
 }
 
-.person {
+.person{
     position: absolute;
     width: 650px;
     bottom: -100px;
@@ -212,7 +131,7 @@ header .titel {
     z-index: 20;
 }
 
-.mountain2 {
+.mountain2{
     position: absolute;
     width: 1100px;
     bottom: -100px;
@@ -220,7 +139,7 @@ header .titel {
     z-index: 18;
 }
 
-.mountain3 {
+.mountain3{
     position: absolute;
     width: 900px;
     bottom: 150px;
@@ -228,16 +147,16 @@ header .titel {
     z-index: 17;
 }
 
-.sky {
+.sky{
     position: absolute;
     width: 2100px;
     bottom: 250px;
     right: 0;
 }
 
+
 /*TITEL EN SUBTITEL*/
-.big-title,
-.subtitle {
+.big-title, .subtitle {
     position: absolute;
     z-index: 30;
     width: 100%;
@@ -245,13 +164,12 @@ header .titel {
     color: #fff;
 }
 
-.big-title {
+.big-title{
     line-height: 4rem;
     top: calc(50% - 2rem);
     width: 100%;
     font-weight: 600;
 }
-
 .subtitle {
     line-height: 3rem;
     top: calc(50% + 2rem);
@@ -261,12 +179,62 @@ header .titel {
 /*PARRALAX EINDE*/
 
 
+
+
+/*MAIN*/
+/*2e en 3e sectie van wie ben ik*/
+.samenwerking, .interesse {
+    margin-top: 50px;
+}
+
+/*titel midden positionering met de juiste margins en stijl*/
+.opleidingen h1, .diplomas h1, .kernwaarden h1, .pxl__vraag h1, .creatie__branding h1,
+.pxl__web h1, .resultaat h1, .pxl__mijn__taken h1, .watis__ownit h1, .ownit__meer__informatie h1,
+.emcy__creatie__branding h1, .emcy__appdesign h1, .emcy__resultaat h1, .emcy__mijntaken h1,
+.emcy__watishet h1, .emcy__home h1, .emcy__meer__informatie h1{
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+.emcy__vraag h1{
+    margin-bottom: 40px;
+}
+
+.ownit__webimg img, .ownit__resultaatimg img, .creatie__img img, .watis__ownit img,
+.emcy__appmock-up img, .emcy__watimg img, .emcy__homeimg img{
+    margin-top: 100px;
+}
+
+/*buttons*/
+.ownit__meer__informatie a, .emcy__meer__informatie a {
+    padding: 15px;
+}
+
+/*tekst in het midden zetten van container*/
+.opleidingen__rij, .kernwaarden__rij, .opleidingen h1,
+.diplomas h1, .kernwaarden h1 {
+    text-align: center;
+}
+
+
+/*KERNWAARDEN*/
+.kernwaarden__rij img {
+    padding-top: 40px;
+}
+
+.kernwaarden__rij h2, .opleidingen__rij h2 {
+    padding: 30px;
+}
+
+
+
+
+
 /*FILTER SECTIE*/
-section {
+#filter-cards section{
     position: relative;
 }
 
-section .container {
+#filter-cards section .container{
     padding: 3rem;
     display: flex;
     flex-direction: column;
@@ -274,15 +242,15 @@ section .container {
     justify-content: center;
 }
 
-section img {
+#filter-cards section img{
     width: 100%;
 }
 
-section .container > * {
+#filter-cards section .container > *{
     margin: 2rem;
 }
 
-.content {
+.content{
     color: #fff;
 }
 
@@ -305,7 +273,8 @@ section .container > * {
     color: #fff;
 }
 
-.shadow {
+
+.shadow{
     position: absolute;
     bottom: 100%;
     height: 250px;
@@ -315,9 +284,10 @@ section .container > * {
     background: linear-gradient(to top, #151515, transparent);
 }
 
-.opacity {
+.opacity{
     opacity: 0;
 }
+
 
 /* Cards */
 .card {
@@ -329,10 +299,10 @@ section .container > * {
     filter: blur(6px) brightness(70%);
 }
 
+
 .card:hover .card-body {
     opacity: 1;
 }
-
 .card .card-body {
     position: absolute;
     top: 50%;
@@ -351,8 +321,7 @@ section .container > * {
     margin: 0;
 }
 
-.card h5,
-.card p {
+.card h5, .card p {
     color: #ffffff;
 }
 
@@ -363,7 +332,23 @@ section .container > * {
 .card p {
     font-size: 15px;
 }
-/*EINDE FILTER SECTIE*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*FOOTER*/
 a {
@@ -374,25 +359,25 @@ a {
     color: #1A1A1A;
 }
 
-.footer__linken h6,
-footer span {
+.footer__linken h6, footer span {
     color: #1A1A1A;
 }
+
 /*EINDE FOOTER*/
 
-@media (max-width: 600px) {
-    .big-title {
-        font-size: 3rem;
+
+@media(max-width: 600px){
+    .big-title{
+        font-size: 3rem
     }
 
-    .text {
-        font-size: 0.8rem;
+    .text{
+        font-size: .8rem;
     }
 
-    .title {
+    .title{
         font-size: 1.2rem;
     }
-
     .subtitle {
         font-size: 1.5rem;
     }

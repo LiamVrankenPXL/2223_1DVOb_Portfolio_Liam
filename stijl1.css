@@ -1,0 +1,12 @@
+
+
+
+
+header .titel {
+    position: relative;
+    z-index: 2;
+    margin-top: 0;
+    top: 150px;
+    text-align: center;
+}
+
