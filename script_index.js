@@ -547,3 +547,12 @@ Array.from(categoryBadges).forEach((badge) => {
 
 // Initial display of all projects
 displayProjects(projects);
+
+
+
+
+
+
+
+
+

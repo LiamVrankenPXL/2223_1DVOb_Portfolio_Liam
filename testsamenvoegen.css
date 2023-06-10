@@ -1,0 +1,399 @@
+/*Standaard waardes voor de webpagina*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*BODY*/
+/*Achtergrond foto toevoegen aan de browser bovenaan*/
+header {
+    background-image: url("assets/achtergrond_aboutme.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 350px;
+}
+
+/*FONDS*/
+h1, h2, h3, h4, h5, h6, .navbar ul li a {
+    font-family: "Aptly", sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+p, span, li, a {
+    font-family: new-order, sans-serif;
+    color: #ffffff;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+/*BODY*/
+body {
+    background-color: #1A1A1A;
+}
+
+p {
+    font-size: 16px;
+}
+
+/*EINDE BODY*/
+
+/*HEADER*/
+/*NAVBAR STIJL*/
+/*Blur effect als achtergrond doorschijning*/
+.navbar {
+    background-color: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.navbar-brand img {
+    max-width: 50px;
+    max-height: 50px;
+    margin-left: 25px;
+}
+
+.navbar-nav .nav-link {
+    margin-right: 20px;
+}
+
+#toggleMode {
+    margin-right: 25px;
+}
+
+/*TEKST STIJL*/
+.navbar-nav .nav-link {
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+}
+
+.navbar-nav .dropdown-menu .dropdown-item {
+    font-family: Arial, sans-serif;
+    color: black;
+}
+
+/*HOVER EFFECTEN*/
+.navbar-nav .dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.navbar-nav .dropdown-menu .dropdown-item:hover {
+    background-color: #1A1A1A;
+    color: #ffffff;
+}
+
+/*TITEL*/
+header .titel h1 {
+    font-size: 50px;
+}
+
+header .titel {
+    position: relative;
+    z-index: 2;
+    margin-top: 0;
+    top: 150px;
+    text-align: center;
+}
+/*EINDE NAVBAR*/
+/*EINDE HEADER*/
+
+
+/*MAIN*/
+/*2e en 3e sectie van wie ben ik*/
+.samenwerking,
+.interesse,
+.opleidingen,
+.diplomas,
+.kernwaarden,
+.pxl__vraag,
+.creatie__branding,
+.pxl__web,
+.resultaat,
+.pxl__mijn__taken,
+.watis__ownit,
+.ownit__meer__informatie,
+.emcy__creatie__branding,
+.emcy__appdesign,
+.emcy__resultaat,
+.emcy__mijntaken,
+.emcy__watishet,
+.emcy__home,
+.emcy__meer__informatie {
+    margin-top: 50px;
+}
+
+/*titel midden positionering met de juiste margins en stijl*/
+.opleidingen h1,
+.diplomas h1,
+.kernwaarden h1,
+.pxl__vraag h1,
+.creatie__branding h1,
+.pxl__web h1,
+.resultaat h1,
+.pxl__mijn__taken h1,
+.watis__ownit h1,
+.ownit__meer__informatie h1,
+.emcy__creatie__branding h1,
+.emcy__appdesign h1,
+.emcy__resultaat h1,
+.emcy__mijntaken h1,
+.emcy__watishet h1,
+.emcy__home h1,
+.emcy__meer__informatie h1 {
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.emcy__vraag h1 {
+    margin-bottom: 40px;
+}
+
+.ownit__webimg img,
+.ownit__resultaatimg img,
+.creatie__img img,
+.watis__ownit img,
+.emcy__appmock-up img,
+.emcy__watimg img,
+.emcy__homeimg img {
+    margin-top: 100px;
+}
+
+/*buttons*/
+.ownit__meer__informatie a,
+.emcy__meer__informatie a {
+    padding: 15px;
+}
+
+/*tekst in het midden zetten van container*/
+.opleidingen__rij,
+.kernwaarden__rij,
+.opleidingen h1,
+.diplomas h1,
+.kernwaarden h1 {
+    text-align: center;
+}
+
+/*KERNWAARDEN*/
+.kernwaarden__rij img {
+    padding-top: 40px;
+}
+
+.kernwaarden__rij h2,
+.opleidingen__rij h2 {
+    padding: 30px;
+}
+/*EINDE MAIN*/
+
+/*PARALAX EFFECT START*/
+/*FOTO'S*/
+.mountain1 {
+    position: absolute;
+    bottom: -100px;
+    width: 1500px;
+    right: 0;
+    z-index: 19;
+}
+
+.person {
+    position: absolute;
+    width: 650px;
+    bottom: -100px;
+    left: -70px;
+    z-index: 20;
+}
+
+.mountain2 {
+    position: absolute;
+    width: 1100px;
+    bottom: -100px;
+    left: 0;
+    z-index: 18;
+}
+
+.mountain3 {
+    position: absolute;
+    width: 900px;
+    bottom: 150px;
+    right: 0;
+    z-index: 17;
+}
+
+.sky {
+    position: absolute;
+    width: 2100px;
+    bottom: 250px;
+    right: 0;
+}
+
+/*TITEL EN SUBTITEL*/
+.big-title,
+.subtitle {
+    position: absolute;
+    z-index: 30;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+.big-title {
+    line-height: 4rem;
+    top: calc(50% - 2rem);
+    width: 100%;
+    font-weight: 600;
+}
+
+.subtitle {
+    line-height: 3rem;
+    top: calc(50% + 2rem);
+    font-size: 2rem;
+    font-weight: 400;
+}
+/*PARRALAX EINDE*/
+
+
+/*FILTER SECTIE*/
+section {
+    position: relative;
+}
+
+section .container {
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section img {
+    width: 100%;
+}
+
+section .container > * {
+    margin: 2rem;
+}
+
+.content {
+    color: #fff;
+}
+
+/*FILTER BADGES*/
+.categoria_badge {
+    display: inline-block;
+    padding: 8px 12px;
+    border-radius: 10px;
+    background-color: #6e57ea;
+    color: #333;
+    cursor: pointer;
+}
+
+.categoria_badge:hover {
+    background-color: #3bcbb9;
+}
+
+.categoria_badge.active {
+    background-color: #3bcbb9;
+    color: #fff;
+}
+
+.shadow {
+    position: absolute;
+    bottom: 100%;
+    height: 250px;
+    width: 100%;
+    left: 0;
+    z-index: 20;
+    background: linear-gradient(to top, #151515, transparent);
+}
+
+.opacity {
+    opacity: 0;
+}
+
+/* Cards */
+.card {
+    position: relative;
+    overflow: hidden;
+}
+
+.card:hover img {
+    filter: blur(6px) brightness(70%);
+}
+
+.card:hover .card-body {
+    opacity: 1;
+}
+
+.card .card-body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%; /* Aanpassen aan je voorkeur */
+    padding: 10px;
+    color: #fff;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    text-align: center;
+}
+
+.card .card-body h5,
+.card .card-body p {
+    margin: 0;
+}
+
+.card h5,
+.card p {
+    color: #ffffff;
+}
+
+.card h5 {
+    font-size: 25px;
+}
+
+.card p {
+    font-size: 15px;
+}
+/*EINDE FILTER SECTIE*/
+
+/*FOOTER*/
+a {
+    text-decoration: none;
+}
+
+.footer__linken p {
+    color: #1A1A1A;
+}
+
+.footer__linken h6,
+footer span {
+    color: #1A1A1A;
+}
+/*EINDE FOOTER*/
+
+@media (max-width: 600px) {
+    .big-title {
+        font-size: 3rem;
+    }
+
+    .text {
+        font-size: 0.8rem;
+    }
+
+    .title {
+        font-size: 1.2rem;
+    }
+
+    .subtitle {
+        font-size: 1.5rem;
+    }
+}
