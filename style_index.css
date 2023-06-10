@@ -235,6 +235,21 @@ section .container > *{
 }
 
 
+/*FOOTER*/
+a {
+    text-decoration: none;
+}
+
+.footer__linken p {
+    color: #1A1A1A;
+}
+
+.footer__linken h6, footer span {
+    color: #1A1A1A;
+}
+
+/*EINDE FOOTER*/
+
 @media(max-width: 600px){
     .big-title{
         font-size: 3rem

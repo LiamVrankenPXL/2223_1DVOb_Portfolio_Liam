@@ -108,12 +108,21 @@ const projects = [
     },
 
 
-    //Digital branding data--------------------------------------------------------------------------------
+
+    //It organisation data--------------------------------------------------------------------------------
     {
-        title: "",
-        category: "Digital branding",
-        image: "assets/",
-        description: ""
+        title: "Intro Shokudo",
+        category: "It organisation",
+        image: "assets/pdf__powerpoint__download.png",
+        description: "Groepswerk voor school met Iben, Simon en Bavo",
+        link: "assets/groepswerk_1dvo_ab_groep3_intro.pdf"
+    },
+    {
+        title: "Eind rapport Shokudo",
+        category: "It organisation",
+        image: "assets/pdf__download.png",
+        description: "Groepswerk voor school met Iben, Simon en Bavo",
+        link: "assets/Groepswerk_1DVOab_groep3_Eindrapport_Shokudo.pdf"
     },
 
 
@@ -233,6 +242,54 @@ const projects = [
         category: "Illustrator",
         image: "assets/Illustrator__19.png",
         description: "Mijn kamer in het 2D getekend"
+    },
+    {
+        title: "Eliminiation of obstacles",
+        category: "Illustrator",
+        image: "assets/Illustrator__20.png",
+        description: "Viking rune"
+    },
+    {
+        title: "Longevity",
+        category: "Illustrator",
+        image: "assets/Illustrator__21.png",
+        description: "Viking rune"
+    },
+    {
+        title: "Spiritual Strength",
+        category: "Illustrator",
+        image: "assets/Illustrator__22.png",
+        description: "Viking rune"
+    },
+    {
+        title: "Succes",
+        category: "Illustrator",
+        image: "assets/Illustrator__23.png",
+        description: "Viking rune"
+    },
+    {
+        title: "Good luck",
+        category: "Illustrator",
+        image: "assets/Illustrator__24.png",
+        description: ""
+    },
+    {
+        title: "Prosperity",
+        category: "Illustrator",
+        image: "assets/Illustrator__25.png",
+        description: "Viking rune"
+    },
+    {
+        title: "Health and vitality",
+        category: "Illustrator",
+        image: "assets/Illustrator__26.png",
+        description: "Viking rune"
+    },
+    {
+        title: "Success in exams",
+        category: "Illustrator",
+        image: "assets/Illustrator__27.png",
+        description: "Viking rune"
     },
 
 
