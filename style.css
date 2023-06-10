@@ -167,6 +167,7 @@ p {
     width: 100%;
     text-align: center;
     color: #fff;
+    margin-top: -50px;
 }
 
 .big-title{
@@ -183,6 +184,16 @@ p {
 }
 /*PARRALAX EINDE*/
 
+
+/*OWNIT*/
+.ownit__webimg, .emcy__appmock-up {
+    text-align: center;
+}
+
+.ownit__webimg img, .emcy__appmock-up img{
+    max-width: 100%;
+    height: auto;
+}
 
 
 
@@ -260,6 +271,7 @@ p {
 .categoria_badge {
     display: inline-block;
     padding: 8px 12px;
+    margin-bottom: 10px;
     border-radius: 10px;
     background-color: #c1b688;
     color: #333;
