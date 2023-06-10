@@ -83,8 +83,9 @@ p {
     margin-left: 25px;
 }
 
-.navbar-nav .nav-link {
-    margin-right: 20px;
+.navbar-nav .nav-item {
+    margin-right: 12px;
+    margin-left: 12px;
 }
 
 
@@ -105,10 +106,15 @@ p {
 }
 
 .navbar-nav .dropdown-menu .dropdown-item:hover {
-    background-color: #1A1A1A;
+    background-color: #3ec9c9;
     color: #ffffff;
 }
 
+.navbar-nav .nav-item:hover {
+    background-color: #3ec9c9;
+    color: #ffffff;
+    border-radius: 5px;
+}
 
 
 
@@ -289,6 +295,10 @@ p {
 
 
 /* Cards */
+#card-container {
+    margin-right: 0;
+}
+
 .card {
     position: relative;
     overflow: hidden;
@@ -298,7 +308,6 @@ p {
     filter: blur(6px) brightness(70%);
 }
 
-
 .card:hover .card-body {
     opacity: 1;
 }
@@ -307,7 +316,6 @@ p {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 80%; /* Aanpassen aan je voorkeur */
     padding: 10px;
     color: #fff;
     opacity: 0;
@@ -331,6 +339,14 @@ p {
 .card p {
     font-size: 15px;
 }
+
+
+
+
+
+
+
+
 
 
 

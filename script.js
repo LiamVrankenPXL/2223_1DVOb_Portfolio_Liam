@@ -59,9 +59,9 @@ const projects = [
         description: "Namaken van een afbeelding deel 2"
     },
     {
-        title: "The bear",
+        title: "Advertentie",
         category: "Photoshop",
-        image: "assets/Photoshop__4.jpg",
+        image: "assets/Photoshop__7.png",
         description: ""
     },
     {
@@ -71,15 +71,15 @@ const projects = [
         description: ""
     },
     {
-        title: "Illustration",
+        title: "The bear",
         category: "Photoshop",
-        image: "assets/Photoshop__6.jpg",
+        image: "assets/Photoshop__4.jpg",
         description: ""
     },
     {
-        title: "Advertentie",
+        title: "Illustration",
         category: "Photoshop",
-        image: "assets/Photoshop__7.png",
+        image: "assets/Photoshop__6.jpg",
         description: ""
     },
     {
@@ -94,6 +94,13 @@ const projects = [
         image: "assets/Photoshop__9.png",
         description: "Gemaakt in illustrator, kleuren en textuur in photoshop"
     },
+
+    {
+        title: "Compositie",
+        category: "Photoshop",
+        image: "assets/Photoshop__11.png",
+        description: "Compositie van 3 afbeeldingen"
+    },
     {
         title: "Dark rooter poster",
         category: "Photoshop",
@@ -101,10 +108,16 @@ const projects = [
         description: "Mock-up van mijn eigen lettertype 2"
     },
     {
-        title: "Compositie",
+        title: "Liquify",
         category: "Photoshop",
-        image: "assets/Photoshop__11.png",
-        description: "Compositie van 3 afbeeldingen"
+        image: "assets/Photoshop__12.png",
+        description: ""
+    },
+    {
+        title: "Liquify",
+        category: "Photoshop",
+        image: "assets/Photoshop__13.png",
+        description: ""
     },
 
 
@@ -151,12 +164,6 @@ const projects = [
 
 
     //Illustrator data--------------------------------------------------------------------------------
-    {
-        title: "Pinguïn",
-        category: "Illustrator",
-        image: "assets/Illustrator__1.svg",
-        description: ""
-    },
     {
         title: "Kalligrafie",
         category: "Illustrator",
@@ -236,6 +243,12 @@ const projects = [
         category: "Illustrator",
         image: "assets/Illustrator__14.png",
         description: "Een film poster van dee Gods of Egypt"
+    },
+    {
+        title: "Pinguïn",
+        category: "Illustrator",
+        image: "assets/Illustrator__1.svg",
+        description: ""
     },
     {
         title: "Initialen logo",
@@ -390,24 +403,6 @@ const projects = [
         description: ""
     },
     {
-        title: "Zonsondergang",
-        category: "Fotografie",
-        image: "assets/fotogalerij__3.jpg",
-        description: "Een uniek fenomeen in de lucht"
-    },
-    {
-        title: "Zonstralen achter de wolken",
-        category: "Fotografie",
-        image: "assets/fotogalerij__4.jpg",
-        description: ""
-    },
-    {
-        title: "Originele bloem met waterdruppels",
-        category: "Fotografie",
-        image: "assets/fotogalerij__5.jpg",
-        description: "Het is de originele foto van de eerste foto"
-    },
-    {
         title: "Bergen landschap",
         category: "Fotografie",
         image: "assets/fotogalerij__6.jpg",
@@ -417,6 +412,24 @@ const projects = [
         title: "Wild vuur",
         category: "Fotografie",
         image: "assets/fotogalerij__7.jpg",
+        description: ""
+    },
+    {
+        title: "Originele bloem met waterdruppels",
+        category: "Fotografie",
+        image: "assets/fotogalerij__5.jpg",
+        description: "Het is de originele foto van de eerste foto"
+    },
+    {
+        title: "Zonsondergang",
+        category: "Fotografie",
+        image: "assets/fotogalerij__3.jpg",
+        description: "Een uniek fenomeen in de lucht"
+    },
+    {
+        title: "Zonstralen achter de wolken",
+        category: "Fotografie",
+        image: "assets/fotogalerij__4.jpg",
         description: ""
     },
     {
@@ -441,12 +454,6 @@ const projects = [
         title: "Landschap windmolens",
         category: "Fotografie",
         image: "assets/fotogalerij__11.jpg",
-        description: ""
-    },
-    {
-        title: "Unieke zon stralen",
-        category: "Fotografie",
-        image: "assets/fotogalerij__12.jpg",
         description: ""
     },
     {
@@ -483,6 +490,12 @@ const projects = [
         title: "Italië zee",
         category: "Fotografie",
         image: "assets/fotogalerij__18.jpg",
+        description: ""
+    },
+    {
+        title: "Unieke zon stralen",
+        category: "Fotografie",
+        image: "assets/fotogalerij__12.jpg",
         description: ""
     },
 ];
