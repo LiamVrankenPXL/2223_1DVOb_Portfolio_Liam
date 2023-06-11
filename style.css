@@ -50,7 +50,7 @@ p {
     overflow: hidden;
 }
 
-/*Achtergrond foto toevoegen aan de browser bovenaan*/
+/*Gepersonaliseerde achtergrond foto toevoegen aan de browser bovenaan*/
 #aboutme-body {
     background-image: url("assets/achtergrond_aboutme.png");
     background-repeat: no-repeat;
@@ -216,7 +216,7 @@ header .titel {
     width: 100%;
     text-align: center;
     color: #fff;
-    margin-top: -75px;
+    margin-top: -125px;
 }
 
 .big-title{
