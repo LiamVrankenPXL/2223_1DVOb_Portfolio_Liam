@@ -70,11 +70,15 @@ p {
 /*NAVBAR STIJL*/
 /*Blur effect als achtergrond doorschijning*/
 .navbar {
-    background-color: rgba(255, 255, 255, 0.25);
+    background-color: rgba(193, 182, 136, 0.25);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     margin-top: 0;
     margin-bottom: 0;
+}
+
+.big-title {
+    font-size: 60px;
 }
 
 .navbar-brand img {
@@ -167,7 +171,7 @@ p {
     width: 100%;
     text-align: center;
     color: #fff;
-    margin-top: -50px;
+    margin-top: -75px;
 }
 
 .big-title{
@@ -290,7 +294,7 @@ p {
 
 .shadow{
     position: absolute;
-    bottom: 100%;
+    bottom: 0;
     height: 250px;
     width: 100%;
     left: 0;
