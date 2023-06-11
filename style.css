@@ -11,6 +11,12 @@
 }
 
 
+/*BODY*/
+body {
+    background-color: #1A1A1A;
+}
+
+
 /*FONDS*/
 h1,h2,h3,h4,h5,h6, .navbar ul li a{
     font-family: "play", sans-serif;
@@ -73,7 +79,7 @@ p {
 }
 
 
-    /*TITEL*/
+    /*TITELS bovenaan*/
 header .titel h1 {
     font-size: 50px;
 }
@@ -86,12 +92,6 @@ header .titel {
     text-align: center;
     margin-bottom: 75px;
 }
-
-/*BODY*/
-body {
-    background-color: #1A1A1A;
-}
-
 
 
 
@@ -193,6 +193,22 @@ body {
 }
 
 
+/*SCHADUW ONDERAAN*/
+.shadow{
+    position: absolute;
+    bottom: -25px;
+    height: 250px;
+    width: 100%;
+    left: 0;
+    z-index: 20;
+    background: linear-gradient(to top, #090909, transparent);
+}
+
+.opacity{
+    opacity: 0;
+}
+
+
 /*TITEL EN SUBTITEL*/
 .big-title, .subtitle {
     position: absolute;
@@ -218,7 +234,7 @@ body {
 /*PARRALAX EINDE*/
 
 
-/*OWNIT*/
+/*teksten/titels - img*/
 .ownit__webimg, .emcy__appmock-up {
     text-align: center;
 }
@@ -329,23 +345,7 @@ body {
 }
 
 
-.shadow{
-    position: absolute;
-    bottom: -25px;
-    height: 250px;
-    width: 100%;
-    left: 0;
-    z-index: 20;
-    background: linear-gradient(to top, #090909, transparent);
-}
-
-.opacity{
-    opacity: 0;
-}
-
-
-/* Cards */
-
+/*CARDS*/
 #card-container {
     margin-right: 0;
     margin-bottom: 200px;
@@ -470,6 +470,8 @@ footer .white-icon {
 
 /*EINDE FOOTER*/
 
+
+/*RESPONSIVE*/
 @media screen and (max-width: 991px){
     #foto_samenwerking-responsive {
         visibility: visible;
