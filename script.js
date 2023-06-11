@@ -443,19 +443,19 @@ const projects = [
     {
         title: "Zonsopgang",
         category: "Fotografie",
-        image: "assets/fotogalerij__9.jpg",
+        image: "assets/fotogalerij__9.png",
         description: ""
     },
     {
         title: "Zonsondergang",
         category: "Fotografie",
-        image: "assets/fotogalerij__10.jpg",
+        image: "assets/fotogalerij__10.png",
         description: ""
     },
     {
         title: "Landschap windmolens",
         category: "Fotografie",
-        image: "assets/fotogalerij__11.jpg",
+        image: "assets/fotogalerij__11.png",
         description: ""
     },
     {
