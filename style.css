@@ -199,7 +199,11 @@ p {
     height: auto;
 }
 
-
+/*About us*/
+#foto_samenwerking-responsive {
+    display: none;
+    visibility: hidden;
+}
 
 /*MAIN*/
 /*2e en 3e sectie van wie ben ik*/
@@ -433,6 +437,17 @@ footer .white-icon {
 
 /*EINDE FOOTER*/
 
+@media screen and (max-width: 991px){
+    #foto_samenwerking-responsive {
+        visibility: visible;
+        overflow: hidden;
+        display: inline-block;
+
+    }
+    #foto_samenwerking {
+        display: none;
+    }
+}
 
 @media(max-width: 600px){
     .big-title{
