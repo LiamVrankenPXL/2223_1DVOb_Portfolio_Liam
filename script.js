@@ -376,18 +376,18 @@ const projects = [
         link:"assets/wpl__Vranken_Liam_1DVOb_Reflectie-Seminaries.pdf"
     },
     {
-        title: "Eindreflectie",
+        title: "Eindreflectie 1",
         category: "Werkplekleren",
         image: "assets/pdf__download.png",
         description: "Eindreflectie WPL1",
         link:"assets/wpl__Vranken_Liam_1DVOb_Eindreflectie.pdf"
     },
     {
-        title: "Eindreflectie",
+        title: "Eindreflectie 2",
         category: "Werkplekleren",
-        image: "",
+        image: "assets/pdf__download.png",
         description: "Eindreflectie WPL2",
-        link:""
+        link:"assets/wpl__Vranken_Liam_1DVOb_Eindreflectie2.pdf"
     },
 
 
@@ -443,19 +443,19 @@ const projects = [
     {
         title: "Zonsopgang",
         category: "Fotografie",
-        image: "assets/fotogalerij__9.jpg",
+        image: "assets/fotogalerij__9.png",
         description: ""
     },
     {
         title: "Zonsondergang",
         category: "Fotografie",
-        image: "assets/fotogalerij__10.jpg",
+        image: "assets/fotogalerij__10.png",
         description: ""
     },
     {
         title: "Landschap windmolens",
         category: "Fotografie",
-        image: "assets/fotogalerij__11.jpg",
+        image: "assets/fotogalerij__11.png",
         description: ""
     },
     {
@@ -562,12 +562,3 @@ Array.from(categoryBadges).forEach((badge) => {
 
 // Initial display of all projects
 displayProjects(projects);
-
-
-
-
-
-
-
-
-

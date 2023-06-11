@@ -1,3 +1,8 @@
+/*fonds inport*/
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@700&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Play:wght@700&family=Righteous&display=swap');
+
+
 /*Standaard waardes voor de webpagina*/
 * {
     box-sizing: border-box;
@@ -6,13 +11,38 @@
 }
 
 
+/*BODY*/
+body {
+    background-color: #1A1A1A;
+}
+
+
 /*FONDS*/
 h1,h2,h3,h4,h5,h6, .navbar ul li a{
-    font-family: "Aptly", sans-serif;
+    font-family: "play", sans-serif;
     color: #ffffff;
     font-weight: bold;
 }
 
+p,span, li, a {
+    font-family: "Baloo Bhaina", sans-serif;
+    color: #ffffff;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 16px;
+}
+
+
+/*Home-index*/
 #index{
     width: 100%;
     height: 100vh;
@@ -20,7 +50,7 @@ h1,h2,h3,h4,h5,h6, .navbar ul li a{
     overflow: hidden;
 }
 
-/*Achtergrond foto toevoegen aan de browser bovenaan*/
+/*Gepersonaliseerde achtergrond foto toevoegen aan de browser bovenaan*/
 #aboutme-body {
     background-image: url("assets/achtergrond_aboutme.png");
     background-repeat: no-repeat;
@@ -49,7 +79,7 @@ h1,h2,h3,h4,h5,h6, .navbar ul li a{
 }
 
 
-    /*TITEL*/
+    /*TITELS bovenaan*/
 header .titel h1 {
     font-size: 50px;
 }
@@ -63,27 +93,6 @@ header .titel {
     margin-bottom: 75px;
 }
 
-/*BODY*/
-body {
-    background-color: #1A1A1A;
-}
-
-p,span, li, a {
-    font-family: new-order, sans-serif;
-    color: #ffffff;
-}
-
-h1 {
-    font-size: 35px;
-}
-
-h2 {
-    font-size: 30px;
-}
-
-p {
-    font-size: 16px;
-}
 
 
 /*HEADER*/
@@ -184,6 +193,22 @@ p {
 }
 
 
+/*SCHADUW ONDERAAN*/
+.shadow{
+    position: absolute;
+    bottom: -25px;
+    height: 250px;
+    width: 100%;
+    left: 0;
+    z-index: 20;
+    background: linear-gradient(to top, #090909, transparent);
+}
+
+.opacity{
+    opacity: 0;
+}
+
+
 /*TITEL EN SUBTITEL*/
 .big-title, .subtitle {
     position: absolute;
@@ -191,7 +216,7 @@ p {
     width: 100%;
     text-align: center;
     color: #fff;
-    margin-top: -75px;
+    margin-top: -125px;
 }
 
 .big-title{
@@ -209,7 +234,7 @@ p {
 /*PARRALAX EINDE*/
 
 
-/*OWNIT*/
+/*teksten/titels - img*/
 .ownit__webimg, .emcy__appmock-up {
     text-align: center;
 }
@@ -271,6 +296,10 @@ p {
 
 
 /*FILTER SECTIE*/
+#filter-cards {
+    margin-top: 100px;
+}
+
 #filter-cards section{
     position: relative;
 }
@@ -316,23 +345,7 @@ p {
 }
 
 
-.shadow{
-    position: absolute;
-    bottom: 0;
-    height: 250px;
-    width: 100%;
-    left: 0;
-    z-index: 20;
-    background: linear-gradient(to top, #151515, transparent);
-}
-
-.opacity{
-    opacity: 0;
-}
-
-
-/* Cards */
-
+/*CARDS*/
 #card-container {
     margin-right: 0;
     margin-bottom: 200px;
@@ -457,6 +470,8 @@ footer .white-icon {
 
 /*EINDE FOOTER*/
 
+
+/*RESPONSIVE*/
 @media screen and (max-width: 991px){
     #foto_samenwerking-responsive {
         visibility: visible;
@@ -499,4 +514,8 @@ footer .white-icon {
         height: 500px;
         top: 0;
     }
+    #contactme-body, #aboutme-body, #ownit-body, #emcy-body {
+        background-image: none;
+    }
 }
+
