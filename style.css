@@ -21,16 +21,35 @@ h1,h2,h3,h4,h5,h6, .navbar ul li a{
 }
 
 /*Achtergrond foto toevoegen aan de browser bovenaan*/
-#emcy-header, #aboutme-header, #ownit-header {
+#aboutme-body {
     background-image: url("assets/achtergrond_aboutme.png");
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
-    height: 350px;
+    margin-top: 100px;
+}
+
+#emcy-body {
+    background-image: url("assets/achtergrond_emcy.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+}
+
+#ownit-body {
+    background-image: url("assets/achtergrond_ownit.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+}
+
+#contactme-body {
+    background-image: url("assets/achtergrond_contact-me.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
-/*TITEL*/
+    /*TITEL*/
 header .titel h1 {
     font-size: 50px;
 }
@@ -39,8 +58,9 @@ header .titel {
     position: relative;
     z-index: 2;
     margin-top: 0;
-    top: 150px;
+    top: 50px;
     text-align: center;
+    margin-bottom: 75px;
 }
 
 /*BODY*/
@@ -70,11 +90,15 @@ p {
 /*NAVBAR STIJL*/
 /*Blur effect als achtergrond doorschijning*/
 .navbar {
-    background-color: rgba(255, 255, 255, 0.25);
+    background-color: rgba(193, 182, 136, 0.25);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     margin-top: 0;
     margin-bottom: 0;
+}
+
+.big-title {
+    font-size: 60px;
 }
 
 .navbar-brand img {
@@ -106,12 +130,12 @@ p {
 }
 
 .navbar-nav .dropdown-menu .dropdown-item:hover {
-    background-color: #3ec9c9;
+    background-color: #884b88;
     color: #ffffff;
 }
 
 .navbar-nav .nav-item:hover {
-    background-color: #3ec9c9;
+    background-color: #884b88;
     color: #ffffff;
     border-radius: 5px;
 }
@@ -167,7 +191,7 @@ p {
     width: 100%;
     text-align: center;
     color: #fff;
-    margin-top: -50px;
+    margin-top: -75px;
 }
 
 .big-title{
@@ -195,7 +219,11 @@ p {
     height: auto;
 }
 
-
+/*About us*/
+#foto_samenwerking-responsive {
+    display: none;
+    visibility: hidden;
+}
 
 /*MAIN*/
 /*2e en 3e sectie van wie ben ik*/
@@ -279,18 +307,18 @@ p {
 }
 
 .categoria_badge:hover {
-    background-color: #3bcbb9;
+    background-color: #884b88;
 }
 
 .categoria_badge.active {
-    background-color: #3bcbb9;
+    background-color: #884b88;
     color: #fff;
 }
 
 
 .shadow{
     position: absolute;
-    bottom: 100%;
+    bottom: 0;
     height: 250px;
     width: 100%;
     left: 0;
@@ -372,7 +400,7 @@ p {
 }
 
 .img-fluid {
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .row-last {
@@ -429,6 +457,17 @@ footer .white-icon {
 
 /*EINDE FOOTER*/
 
+@media screen and (max-width: 991px){
+    #foto_samenwerking-responsive {
+        visibility: visible;
+        overflow: hidden;
+        display: inline-block;
+
+    }
+    #foto_samenwerking {
+        display: none;
+    }
+}
 
 @media(max-width: 600px){
     .big-title{
