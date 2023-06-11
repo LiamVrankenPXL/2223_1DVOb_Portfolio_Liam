@@ -1,5 +1,6 @@
 const translate = document.querySelectorAll(".translate");
 const big_title = document.querySelector(".big-title");
+const subtitle = document.querySelector(".subtitle");
 const header = document.querySelector("header");
 const shadow = document.querySelector(".shadow");
 const section = document.querySelector("section");
@@ -24,6 +25,7 @@ window.addEventListener('scroll', () => {
     })
 
     big_title.style.opacity = -scroll / (header_height / 2) + 1;
+    subtitle.style.opacity = -scroll / (header_height / 2) + 1;
     shadow.style.height = `${scroll * 0.5 + 300}px`;
 
     content.style.transform = `translateY(${scroll / (section_height + sectionY.top) * 50 - 50}px)`;
