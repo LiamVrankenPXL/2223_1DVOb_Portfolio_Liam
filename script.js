@@ -121,6 +121,12 @@ const projects = [
         image: "assets/Photoshop__13.png",
         description: ""
     },
+    {
+        title: "Liquify flower",
+        category: "Photoshop",
+        image: "assets/Photoshop__14.png",
+        description: ""
+    },
 
 
     //UX data--------------------------------------------------------------------------------
