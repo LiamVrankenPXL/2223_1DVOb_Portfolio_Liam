@@ -397,6 +397,58 @@ const projects = [
     },
 
 
+    //WERKPLEKLEREN 3 data--------------------------------------------------------------------------------
+
+    {
+        title: "Individuele Reflectie",
+        category: "Werkplekleren3",
+        image: "assets/pdf__download.png",
+        description: "Wpl 3: Individuele Reflectie",
+        link:"assets/Liam_Vranken_2DVOa_Opdracht_Individuele Reflectie.pdf"
+    },
+    {
+        title: "Kernkwadrant",
+        category: "Werkplekleren3",
+        image: "assets/pdf__download.png",
+        description: "Wpl 3: Kernkwadrant",
+        link:"assets/Liam_Vranken_2DVOa_Opdracht_Kernkwadrant.pdf"
+    },
+    {
+        title: "Pitch",
+        category: "Werkplekleren3",
+        image: "assets/LiamVranken_2DVOa_Intervisie3_Pitch.png",
+        description: "Wpl 3: Pitch",
+        link: "assets/LiamVranken_2DVOa_Intervisie3_Pitch.png",
+    },
+    {
+        title: "Probleemstelling",
+        category: "Werkplekleren3",
+        image: "assets/pdf__download.png",
+        description: "Wpl 3: Probleemstelling",
+        link:"assets/Liam_Vranken_2DVOa_Opdracht_1_Probleemstelling.pdf"
+    },
+    {
+        title: "Tussentijdsereflectie",
+        category: "Werkplekleren3",
+        image: "assets/pdf__download.png",
+        description: "Wpl 3: Tussentijdsereflectie",
+        link:"assets/Liam_Vranken_2DVOa_Opdracht_2_Tussentijdsereflectie.pdf"
+    },
+    {
+        title: "Eindreflectie",
+        category: "Werkplekleren3",
+        image: "assets/pdf__download.png",
+        description: "Wpl 3: Eindreflectie",
+        link:"assets/Liam_Vranken_2DVOa_Eindreflectie.pdf"
+    },
+
+
+
+
+
+
+
+
     //Fotografie data--------------------------------------------------------------------------------
     {
         title: "Zwart wit bloem met waterdruppels",
