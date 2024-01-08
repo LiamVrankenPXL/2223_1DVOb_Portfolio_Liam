@@ -434,6 +434,16 @@ const projects = [
         description: "Wpl 3: Tussentijdsereflectie",
         link:"assets/Liam_Vranken_2DVOa_Opdracht_2_Tussentijdsereflectie.pdf"
     },
+    {
+        title: "Eindreflectie",
+        category: "Werkplekleren3",
+        image: "assets/pdf__download.png",
+        description: "Wpl 3: Eindreflectie",
+        link:"assets/Liam_Vranken_2DVOa_Eindreflectie.pdf"
+    },
+
+
+
 
 
 
