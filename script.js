@@ -444,7 +444,52 @@ const projects = [
 
 
 
-
+    //WERKPLEKLEREN 4 data--------------------------------------------------------------------------------
+    {
+        title: "Logboek",
+        category: "Werkplekleren4",
+        image: "assets/pdf__download.png",
+        description: "Wpl 4: Mijn logboek is te raadplegen op Onstage",
+    },
+    {
+        title: "Ontwikkelgesprekken",
+        category: "Werkplekleren4",
+        image: "assets/pdf__download.png",
+        description: "Wpl 4: Mijn Ontwikkelgesprekken zijn te raadplegen op Onstage",
+    },
+    {
+        title: "Voorbereiding X-factor",
+        category: "Werkplekleren4",
+        image: "assets/pdf__powerpoint__download.png",
+        description: "Wpl 4: Dit is een voorbereiding ppt dat ik gemaakt hebt voor de PXL X-factor",
+        link:"assets/Intervisie_1_LiamVranken_X-factor.pptx"
+    },
+    {
+        title: "Reflectie X-factor klasgenoten",
+        category: "Werkplekleren4",
+        image: "assets/pdf__download.png",
+        description: "Wpl 4: Een reflectie van mijn klasgenoten dat zich in de X-fator geplaats hebben",
+        link:"assets/Reflectie_PXL_X-Factor_LiamVranken.pdf"
+    },
+    {
+        title: "Functioneringesprekken",
+        category: "Werkplekleren4",
+        image: "assets/pdf__download.png",
+        description: "Wpl 4: Mijn functioneringsprekken zijn te raadplegen op Onstage",
+    },
+    {
+        title: "Evaluatiegesprek",
+        category: "Werkplekleren4",
+        image: "assets/pdf__download.png",
+        description: "Wpl 4: ",
+    },
+    {
+        title: "Eindreflectie",
+        category: "Werkplekleren4",
+        image: "assets/pdf__download.png",
+        description: "Wpl 4: Mijn laatste eindreflectie dat ik geschreven heb voor PXL",
+        link:"assets/WPL_Eindreflectie_VrankenLiam.pdf"
+    },
 
 
 
